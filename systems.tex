@@ -18,7 +18,7 @@ Through the SFKB system public agencies, such as the municipalities, are able do
 The objective of the cadastre, in Norwegian called \textit{Matrikkelen}, is to serve as a registry of cadastal units and property in Norway, i.e buildings, parcels and addresses. There are several usages of  the cadastre. For the municipalities and the local administrations the cadastre is an important tool for e.g. land use planning and collection of fees; for the government it is a tool for deriving statistic and for the private sector it gives valuable information for the property marked amongst other things \citep{Mjos2002}. The server of the cadastre runs centrally at Kartverket.  
 
 
-\subsection{Data Flow of the Two Systems}
+\section{Data Flow of the Two Systems}
 The management systems of the \textit{SFKB} and the cadastre have the same dataflow as is illustrated in figure \ref{fig:konsept}. \textit{The municipalities}  update the central data stores through an application programming interface (API), and \textit{the central management}, with the main responsibility for the content of the database (Kartverket), controls the data stores and does periodical updates on them. With a synchronisation API (further explained in chapter \ref{chap:tech}), local copies at the municipalities and distributional copies for all end-users of the mapdata will be kept up-to-date \citep{Kartverket2015}.
 
 

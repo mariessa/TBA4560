@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.20)  17 DEC 2017 20:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.20)  18 DEC 2017 00:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1256,8 +1256,12 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box41
 )) (./thesis.aux
 (./front.aux) (./preface.aux) (./summary.aux) (./introduction.aux)
-(./systems.aux) (./techniques.aux) (./otherCountries.aux) (./centraliseddb.aux)
-(./conclusion.aux) (./acronyms.aux) (./appendix-b.aux))
+(./systems.aux) (./techniques.aux
+
+LaTeX Warning: Label `fig:matr' multiply defined.
+
+) (./otherCountries.aux) (./centraliseddb.aux) (./conclusion.aux)
+(./acronyms.aux) (./appendix-b.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -1404,10 +1408,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 <img/NTNU.pdf, id=126, pagebox=cropbox, 241.90375pt x 53.19875pt>
 File: img/NTNU.pdf Graphic file (type pdf)
 <use img/NTNU.pdf>
-Package pdftex.def Info: img/NTNU.pdf  used on input line 17. on input line 17.
+Package pdftex.def Info: img/NTNU.pdf  used on input line 18. on input line 18.
 
 Package pdftex.def Info: Requested size: 241.90315pt x 53.19861pt on input line
- 17.
+ 18.
 ) [1
 
 
@@ -1448,23 +1452,27 @@ LaTeX Font Info:    Try loading font information for FML+futmi on input line 1.
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 1.
+(Font)              scaled to size 13.24796pt on input line 1.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 1.
+(Font)              scaled to size 9.19998pt on input line 1.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 1.
+(Font)              scaled to size 7.35999pt on input line 1.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 1.
+(Font)              scaled to size 13.24796pt on input line 1.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 1.
+(Font)              scaled to size 9.19998pt on input line 1.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 1.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 3.
+(Font)              scaled to size 7.35999pt on input line 1.
  [3
 
 
-])
+]
+Overfull \hbox (3.40958pt too wide) in paragraph at lines 22--22
+ [][] [][][]\T1/futs/m/n/14.4 The geo-data co-op-er-a-tion, \T1/futs/m/it/14.4 
+Geo-datasamverkan \T1/futs/m/n/14.4 evt geo-dat- 
+ []
+
+)
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
@@ -1480,18 +1488,13 @@ l.19 \include{introduction}
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 3.
-
-Overfull \hbox (11.53535pt too wide) in paragraph at lines 35--36
-[]\T1/futs/m/n/12 To give an overview of tech-niques for trans-fer-ring geospa-
-tial in-for-ma-tion, and see whether
- []
-
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 44.
 [2
 
 
 ]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 44.
+
 
 LaTeX Warning: Marginpar on page 3 moved.
 
@@ -1511,12 +1514,29 @@ LABELS NOT IMPORTED.
 Chapter 2.
 LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <14.4> not available
 (Font)              Font shape `T1/futs/b/it' tried instead on input line 8.
+
+Overfull \hbox (4.10059pt too wide) in paragraph at lines 9--11
+\T1/futs/m/n/14.4 data, the im-ple-men-ta-tion of \T1/futs/m/it/14.4 Sen-tral f
+elles kart-database \T1/futs/m/n/14.4 (SFKB), the cen-tralised
+ []
+
 [4
 
 
 
-]
-<img/consept.png, id=232, 515.9275pt x 218.8175pt>
+] [5]
+Overfull \hbox (9.38466pt too wide) in paragraph at lines 22--23
+\T1/futs/m/n/14.4 The man-age-ment sys-tems of the \T1/futs/m/it/14.4 SFKB \T1/
+futs/m/n/14.4 and the cadas-tre have the same dataflow
+ []
+
+
+Overfull \hbox (4.34535pt too wide) in paragraph at lines 22--23
+\T1/futs/m/it/14.4 age-ment\T1/futs/m/n/14.4 , with the main re-spon-si-bil-ity
+ for the con-tent of the database (Kartver-
+ []
+
+<img/consept.png, id=241, 515.9275pt x 218.8175pt>
 File: img/consept.png Graphic file (type png)
 <use img/consept.png>
 Package pdftex.def Info: img/consept.png  used on input line 33. on input line 
@@ -1525,51 +1545,43 @@ Package pdftex.def Info: Requested size: 412.74255pt x 175.05423pt on input lin
 e 33.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <8> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 34.
- [5]) [6 <./img/consept.png>]
+) [6 <./img/consept.png>]
 \openout2 = `techniques.aux'.
 
  (./techniques.tex
 Chapter 3.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 12.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 6.25598pt on input line 12.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 12.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 12.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.25598pt on input line 12.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 12.
-<img/ngiss.png, id=260, 664.4825pt x 312.16624pt>
+[7
+
+
+
+]
+<img/ngiss.png, id=268, 664.4825pt x 312.16624pt>
 File: img/ngiss.png Graphic file (type png)
 <use img/ngiss.png>
 Package pdftex.def Info: img/ngiss.png  used on input line 18. on input line 18
 .
 Package pdftex.def Info: Requested size: 332.24043pt x 156.08273pt on input lin
 e 18.
-[7
-
-
-
-]
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <12> not available
 (Font)              Font shape `T1/futs/b/it' tried instead on input line 44.
-
-Overfull \hbox (0.71936pt too wide) in paragraph at lines 46--47
-\T1/futs/m/n/12 Geosynchronising (\T1/futs/m/it/12 GeoSynkro-nis-er-ing\T1/futs
-/m/n/12 ) is a Nor-we-gian stan-dard for syn-chro-nis-ing ge-o-graph-
- []
-
-<img/geosync.png, id=284, 417.56pt x 79.29625pt>
+ [8 <./img/ngiss.png>]
+<img/geosync.png, id=292, 417.56pt x 79.29625pt>
 File: img/geosync.png Graphic file (type png)
 <use img/geosync.png>
 Package pdftex.def Info: img/geosync.png  used on input line 53. on input line 
 53.
 Package pdftex.def Info: Requested size: 208.77948pt x 39.64801pt on input line
  53.
-[8 <./img/ngiss.png>]
 <img/geosynkkk.png, id=303, 1064.97874pt x 84.315pt>
 File: img/geosynkkk.png Graphic file (type png)
 <use img/geosynkkk.png>
@@ -1577,178 +1589,113 @@ Package pdftex.def Info: img/geosynkkk.png  used on input line 63. on input lin
 e 63.
 Package pdftex.def Info: Requested size: 425.98395pt x 33.72539pt on input line
  63.
- [9 <./img/geosync.png> <./img/geosynkkk.png>]
-<img/matrikkelSYS.png, id=336, 683.55376pt x 492.84125pt>
+ [9 <./img/geosync.png>]
+Overfull \hbox (23.75575pt too wide) in paragraph at lines 75--76
+\T1/futs/m/it/14.4 trikke-lAPI \T1/futs/m/n/14.4 (chap-ter [][]3.2.1[][]) that 
+is on the cadas-tral cen-tral server ([][]Ma-trikkelavdelin-
+ []
+
+
+Overfull \hbox (18.21259pt too wide) in paragraph at lines 75--76
+\T1/futs/m/n/14.4 want-ing to keep a lo-cal cadas-tre copy, the Ma-trikkel sys-
+tem pro-vides a \T1/futs/m/it/14.4 Changelog
+ []
+
+[10 <./img/geosynkkk.png>]
+Overfull \hbox (3.0062pt too wide) in paragraph at lines 85--86
+\T1/futs/m/n/14.4 sup-port in-spec-tion and up-dat-ing for all in-for-ma-tion o
+n the cadas-tre, the view-
+ []
+
+<img/matrikkelSYS.png, id=344, 683.55376pt x 492.84125pt>
 File: img/matrikkelSYS.png Graphic file (type png)
 <use img/matrikkelSYS.png>
 Package pdftex.def Info: img/matrikkelSYS.png  used on input line 91. on input 
 line 91.
 Package pdftex.def Info: Requested size: 341.77605pt x 246.42001pt on input lin
 e 91.
- [10 <./img/matrikkelSYS.png>]
+[11]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 102.
-
-
-Package natbib Warning: Citation `Battle2008' on page 11 undefined on input lin
-e 118.
-
-[11]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 127.
-
+ [12 <./img/matrikkelSYS.png>] [13]
+<img/REST.png, id=392, 663.47874pt x 201.75375pt>
+File: img/REST.png Graphic file (type png)
+<use img/REST.png>
+Package pdftex.def Info: img/REST.png  used on input line 122. on input line 12
+2.
+Package pdftex.def Info: Requested size: 331.73856pt x 100.87662pt on input lin
+e 122.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 131.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 131.
+(Font)              scaled to size 6.99199pt on input line 142.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 131.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 131.
-) [12]
+(Font)              scaled to size 6.99199pt on input line 142.
+ [14 <./img/REST.png>]) [15]
 \openout2 = `otherCountries.aux'.
 
- (./otherCountries.tex
+
+(./otherCountries.tex
 Chapter 4.
+[16
 
-Overfull \hbox (114.6398pt too wide) in paragraph at lines 7--7
-[][][][]\T1/futs/m/n/10 https://www.lantmateriet.se/en/Maps- 
+
+
+]
+Overfull \hbox (72.08295pt too wide) in paragraph at lines 21--25
+\T1/futs/m/n/14.4 Geodatastyrelsen "Kartver-ket" http://gst.dk/om-os/ Dataforde
+l-eren http://sdfe.dk/hent-
  []
 
 
-Overfull \hbox (0.95992pt too wide) in paragraph at lines 7--7
-\T1/futs/m/n/10 geographic- 
+Overfull \hbox (2.81912pt too wide) in paragraph at lines 21--25
+\T1/futs/m/n/14.4 Ma-trikke-len http://gst.dk/matriklen/ejendomsdataprogrammet/
+matriklens-
  []
 
-
-Overfull \hbox (5.66994pt too wide) in paragraph at lines 7--7
-\T1/futs/m/n/10 information/  
- []
-
-
-Overfull \hbox (114.6398pt too wide) in paragraph at lines 7--7
-[][][][]\T1/futs/m/n/10 https://www.lantmateriet.se/en/Maps- 
- []
-
-
-Overfull \hbox (0.95992pt too wide) in paragraph at lines 7--7
-\T1/futs/m/n/10 geographic- 
- []
-
-
-Overfull \hbox (5.66994pt too wide) in paragraph at lines 7--7
-\T1/futs/m/n/10 information/  
- []
-
-
-Overfull \hbox (114.6398pt too wide) in paragraph at lines 7--7
-[][][][]\T1/futs/m/n/10 https://www.lantmateriet.se/en/Maps- 
- []
-
-
-Overfull \hbox (0.95992pt too wide) in paragraph at lines 7--7
-\T1/futs/m/n/10 geographic- 
- []
-
-
-Overfull \hbox (5.66994pt too wide) in paragraph at lines 7--7
-\T1/futs/m/n/10 information/  
- []
-
-
-Overfull \hbox (114.6398pt too wide) in paragraph at lines 7--7
-[][][][]\T1/futs/m/n/10 https://www.lantmateriet.se/en/Maps- 
- []
-
-
-Overfull \hbox (0.95992pt too wide) in paragraph at lines 7--7
-\T1/futs/m/n/10 geographic- 
- []
-
-
-Overfull \hbox (5.66994pt too wide) in paragraph at lines 7--7
-\T1/futs/m/n/10 information/  
- []
-
-
-Overfull \hbox (177.77975pt too wide) in paragraph at lines 9--9
-[][][][]\T1/futs/m/n/10 https://www.geodata.se/anvanda/geodatasamverkan/  
- []
-
-
-Overfull \hbox (177.77975pt too wide) in paragraph at lines 9--9
-[][][][]\T1/futs/m/n/10 https://www.geodata.se/anvanda/geodatasamverkan/  
- []
-
-
-Overfull \hbox (177.77975pt too wide) in paragraph at lines 9--9
-[][][][]\T1/futs/m/n/10 https://www.geodata.se/anvanda/geodatasamverkan/  
- []
-
-
-Overfull \hbox (177.77975pt too wide) in paragraph at lines 9--9
-[][][][]\T1/futs/m/n/10 https://www.geodata.se/anvanda/geodatasamverkan/  
- []
-
-
-LaTeX Warning: Marginpar on page 13 moved.
-
-
-Overfull \hbox (89.80722pt too wide) in paragraph at lines 15--19
-\T1/futs/m/n/12 Geodatastyrelsen "Kartver-ket" http://gst.dk/om-os/ Datafordel-
-eren http://sdfe.dk/hent-data/datafordeleren/
- []
-
-
-Overfull \hbox (190.18707pt too wide) in paragraph at lines 15--19
-\T1/futs/m/n/12 Grun-n-dat-apro-gram-met Sara Bjerre på sarbj@digst.dk Ma-trikk
-e-len http://gst.dk/matriklen/ejendomsdataprogrammet/matriklens-
- []
-
-) [13
-
-
-
-] [14]
+) [17]
 \openout2 = `centraliseddb.aux'.
 
  (./centraliseddb.tex
 Chapter 5.
-[15
+[18
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 36.
+Overfull \hbox (3.5623pt too wide) in paragraph at lines 13--15
+[]\T1/futs/m/n/14.4 With the stan-dard for ex-chang-ing geospa-tial data in Nor
+-way, SOSI (Samord-
+ []
 
- (/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/ts1futs.fd
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 60.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
-)
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 39.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 83.
+(hyperref)                than one, level fixed on input line 81.
 
-) [16]
+[19]) [20]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
 Chapter 6.
-) [17
+)
+Overfull \hbox (3.33261pt too wide) in paragraph at lines 36--24
+[]\T1/futs/m/n/14.4 The pro-cess of stor-ing map data lo-cally and later send t
+hose data to \T1/futs/m/it/14.4 Kartver-
+ []
+
+[21
 
 
 
-]
+] [22]
 \openout2 = `acronyms.aux'.
 
  (./acronyms.tex
 Appendix A.
-) [18
+) [23
 
 
 
@@ -1757,24 +1704,26 @@ Appendix A.
 
  (./appendix-b.tex
 Appendix B.
-) [19
+) [24
 
 
 
-] (./thesis.bbl [20
+] (./thesis.bbl
+Underfull \hbox (badness 3209) in paragraph at lines 42--45
+[]\T1/futs/m/n/14.4 Frenvik, A. (2017).  Det åpne geodata-økosystemet.  \T1/fut
+s/m/it/14.4 Kart og Plan\T1/futs/m/n/14.4 ,
+ []
+
+[25
 
 
 ]
-Underfull \hbox (badness 3039) in paragraph at lines 131--135
-[]\T1/futs/m/n/12 Yao, X. and Zou, L. (2008).  In-ter-op-er-a-ble in-ter-net ma
-pping--an open source ap-
+Underfull \hbox (badness 5711) in paragraph at lines 86--89
+[]\T1/futs/m/n/14.4 Matrikkelavdelingen (2017).  Samla sys-tem-spe-si-fikasjon 
+Ma-trikke-lens
  []
 
-)
-
-Package natbib Warning: There were undefined citations.
-
-[21]
+[26]) [27]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
  (./thesis.aux (./front.aux) (./preface.aux) (./summary.aux)
@@ -1783,31 +1732,33 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C0BB88489EB36C55DD41B665FFC94565;2237.
+(rerunfilecheck)             Checksum: 95605131711F0841CF88A88F8EBB94FB;2230.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 20269 strings out of 492990
- 365110 string characters out of 6132621
- 438069 words of memory out of 5000000
- 23214 multiletter control sequences out of 15000+600000
- 129591 words of font info for 120 fonts, out of 8000000 for 9000
+ 20239 strings out of 492990
+ 364216 string characters out of 6132621
+ 435891 words of memory out of 5000000
+ 23183 multiletter control sequences out of 15000+600000
+ 114030 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,16n,92p,1072b,718s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/adobe/utopia/putri8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
-ublic/cm-super/sftt1200.pfb>
-Output written on thesis.pdf (25 pages, 275648 bytes).
+ 64i,16n,92p,1118b,718s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/adobe/utopia/putri8a.pfb>
+Output written on thesis.pdf (31 pages, 267089 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
- 452 compressed objects within 5 object streams
- 103 named destinations out of 1000 (max. 500000)
- 283 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 554 PDF objects out of 1000 (max. 8388607)
+ 482 compressed objects within 5 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 

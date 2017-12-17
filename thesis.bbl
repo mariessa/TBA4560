@@ -1,9 +1,21 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{Battle and Benson}{2008}]{Battle2008}
+Battle, R. and Benson, E. (2008).
+\newblock {Bridging the semantic Web and Web 2.0 with Representational State
+  Transfer (REST)}.
+\newblock {\em Web Semantics: Science, Services and Agents on the World Wide
+  Web}, 6(1):61--69.
+
 \bibitem[\protect\astroncite{Breslow}{2004}]{Breslow2004}
 Breslow, N. (2004).
 \newblock {Wide Area File Sharing Across the WAN}.
 \newblock {\em Computer Technology Review}, 24(8):33--34.
+
+\bibitem[\protect\astroncite{Ceeb}{2013}]{Ceeb2013}
+Ceeb (2013).
+\newblock {How to build a REST Web API on a Raspberry PI in JavaScript - The
+  Floppy Disk}.
 
 \bibitem[\protect\astroncite{Dontigney}{2017}]{Dontigney2017}
 Dontigney, E. (2017).
@@ -65,12 +77,10 @@ Kartverket (2017c).
 Kartverket (2017d).
 \newblock {Sentral Felles Kartdatabase - Systembeskrivelse}.
 
-\bibitem[\protect\astroncite{Lohrer et~al.}{2016}]{LOHRER2016558}
-Lohrer, J.-Y., Kaltenthaler, D., Kr{\"{o}}ger, P., van~der Meijden, C., and
-  Obermaier, H. (2016).
-\newblock {A generic framework for synchronized distributed data management in
-  archaeological related disciplines}.
-\newblock {\em Future Generation Computer Systems}, 56(Supplement C):558--570.
+\bibitem[\protect\astroncite{Louridas}{2006}]{Louridas2006}
+Louridas, P. (2006).
+\newblock {SOAP and Web Services}.
+\newblock {\em IEEE Software}, 23(6):62--67.
 
 \bibitem[\protect\astroncite{Matrikkelavdelingen}{2017}]{Matrikkelavdelingen2017}
 Matrikkelavdelingen (2017).
@@ -126,6 +136,11 @@ S{\ae}ther, M.~H. (2016).
 Sandal, K. (2016).
 \newblock {Sentral lagring av FKB med ISY WinMap Kjell Sandal Norconsult
   Informasjonssystemer AS}.
+
+\bibitem[\protect\astroncite{Sipes}{2004}]{Sipes2004}
+Sipes, J. (2004).
+\newblock {A Standard Approach}.
+\newblock {\em CADalyst}, 21(12):58--61.
 
 \bibitem[\protect\astroncite{Yao and Zou}{2008}]{YaoXiaobai2008Iimo}
 Yao, X. and Zou, L. (2008).
