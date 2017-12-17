@@ -9,7 +9,7 @@ QMS has a client-server architecture; the servers distribute the data and the cl
 %The NGIS-API is an application programming interface for storing spatial data, and GeoSynkronisering is a standard for synchronizing spatial data across different platforms and system solutions \citep{Kartverket2017, Kartverket2013}.
 The structure of the QMS system
 %with the NGIS-API
-is as \cite{Kartverket2017} illustrated it in Figure \ref{fig:qmsfig}: the \textit{archives} (data stores) are used for storing the FKB-data, the \textit{portals} defines the clients and authorizes users for different tasks, and a task is defined as access to an archive. The data stored in, and uploaded into, QMS is defined by the \textit{object catalogue}, and the service of translating logical, humanly meaningful, names of the distributing servers into unique identifiers (UUID) is the \textit{name server}. All the objects in the archives are given UUIDs, no other spatial object carries the same, simplifying search and linking processes. 
+is as \cite{Kartverket2017} illustrated it in Figure \ref{fig:qmsfig}: the \textit{archives} (data stores) are used for storing the FKB-data, the \textit{portals} defines the clients and authorizes users for different tasks, and a task is defined as access to an archive. The data stored in, and uploaded into, QMS is defined by the \textit{object catalogue}, and the service of translating logical, humanly meaningful, names of the distributing servers into unique identifiers (UUID) is the \textit{name server}. All the objects in the archives are given UUIDs, and no other spatial object carries the same\footnote{For example, the number of random version 4 UUIDs which need to be generated in order to have a 50\% probability of at least one collision, is 2.71 quintillion. This is computed as follows: $ n \approx \frac{1}{2} + \sqrt{\frac{1}{4}+2 \times \ln{2} \times  2^{122} \approx 2.71 \times 10^{18}} $ \citep{Eggan2017}}, simplifying search and linking processes.
 The \textit{NGIS-API} is the application programming interface for storing spatial data into QMS.% The SOSI format, the standard for geographical data in Norway is used. As the SOSI-standard follows the INSPIRE directive by suggesting that
 %This is due to the fact that the SOSI-standard follows the INSPIRE directive, and suggests that all object have an UUID  The UUID the SOSI-standard follows the INSPIRE standard for identifying spatial objects \citep{Kartverket2012, Hokstad2016}.
 
@@ -56,12 +56,12 @@ The project of making a standard interface for geosynchronisation services in No
 \end{figure}
 
 
-The data transfer with geosynchronising (figure \ref{fig:geosyncprocess}) is a set of transactions of changed features on the GML-format and their respective changelogs are specified by the WFS-T.  GML (Geography Markup Language) is a open interchange format for geographic transactions and a modeling language for geospatial systems \citep{OGC2017}, and WFS-T (Transactional Web Feature Service) allows creation, deletion, and updating of geospatial features on the web \citep{OGCNetwork} and will be further described in chapter \ref{wfs}. 
+The data transfer with geosynchronising (figure \ref{fig:geosyncprocess}) is a set of transactions of changed features on the GML-format and their respective changelogs are specified by the WFS-T.  GML (Geography Markup Language) is a open interchange format for geographic transactions and a modelling language for geospatial systems \citep{OGC2017}.WFS-T (Transactional Web Feature Service) allows creation, deletion, and updating of geospatial features on the web \citep{OGCNetwork} and will be further described in chapter \ref{wfs}. 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.4]{img/geosynkkk.png}
-	\caption{The geosynchronisation process, adopted from \cite{Eggan2017} }
+	\caption{A detailed description of the Norwegian geosynchronisation process, adopted from \cite{Eggan2017}. MÅ FORKLARE DENNE. Deegree is a implementation of the Web Feature Service}
 	\label{fig:geosyncprocess}
 \end{figure}
 
@@ -112,16 +112,13 @@ The Web Mapping Service (WMS) is another standad from OGS for exchanging geograp
 
 
 \subsection{Representational State Transfer (REST)}
-The definitions of Representational State Transfer (REST) are many \citep{Fielding, Richardson}, this paper uses the description by \cite{Battle2008}: \textit{ is a pattern of resource operations that has emerged as a de facto standard for service design in Web 2.0 applications.} 
+The definitions of Representational State Transfer (REST) are many \citep{Fielding, Richardson}, this paper uses the description by \cite{Fieldinga}: \textit{REST is a coordinated set of architectural constraints that attempts to minimize latency and network communication while at the same time maximizing the independence and scalability of component implementations}. 
+%\cite{Battle2008}: \textit{REST is a pattern of resource operations that has emerged as a de facto standard for service design in Web 2.0 applications.} 
 
+REST is based on the HTTP and HTML standards, and provide simplified calls to services through HTTP. It is only data structures and the transferring of their state that is dealt with in a RESTful service \cite{Battle2008}. The state transferring calls are POST, GET, PUT and DELETE, which receptively creates, reads, updates and deletes resources in the RESTful service. A resource is identified and resolved with a URL.
 
-REST is based on the HTTP and HTML standards 
-To this day differences exist among the authors regarding what
-is the “right” or “best” definition of REST.
+%Representational State Transfer. En tilleggsmekanisme til HTTP som forenkler kall mot tjenester via HTTP. 
 
-Representational State Transfer. En tilleggsmekanisme til HTTP som forenkler kall mot tjenester via HTTP. 
-
-The state transferring operations in REST-APIs are POST, GET, PUT and DELETE
 
 \subsection{SOAP}
 Simple Object Access Protocol. Tjenestegrensesnitt med

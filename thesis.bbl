@@ -1,12 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\astroncite{Battle and Benson}{2008}]{Battle2008}
-Battle, R. and Benson, E. (2008).
-\newblock {Bridging the semantic Web and Web 2.0 with Representational State
-  Transfer (REST)}.
-\newblock {\em Web Semantics: Science, Services and Agents on the World Wide
-  Web}, 6(1):61--69.
-
 \bibitem[\protect\astroncite{Breslow}{2004}]{Breslow2004}
 Breslow, N. (2004).
 \newblock {Wide Area File Sharing Across the WAN}.
@@ -19,6 +12,10 @@ Dontigney, E. (2017).
 \bibitem[\protect\astroncite{Eggan and Pedersen}{2017}]{Eggan2017}
 Eggan, L. and Pedersen, J. (2017).
 \newblock {WFS for transaksjoner WFS-T}.
+
+\bibitem[\protect\astroncite{Fielding and Taylor}{1995}]{Fieldinga}
+Fielding, R.~T. and Taylor, R.~N. (1995).
+\newblock {Principled Design of the Modern Web Architecture}.
 
 \bibitem[\protect\astroncite{Fielding et~al.}{2017}]{Fielding}
 Fielding, R.~T., Taylor, R.~N., Erenkrantz, J.~R., Gorlick, M.~M., Whitehead,
