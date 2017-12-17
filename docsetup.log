@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.20)  17 DEC 2017 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.20)  17 DEC 2017 20:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1208,273 +1208,6 @@ LaTeX Info: Redefining \addtolength on input line 81.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xr.sty
 Package: xr 1994/05/28 v5.02 eXternal References (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count143
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count144
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.tex
-\@xs@message=\write4
-\integerpart=\count145
-\decimalpart=\count146
-)
-Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
-)
-\c@tabx@nest=\count147
-\c@listtotal=\count148
-\c@listcount=\count149
-\c@liststart=\count150
-\c@liststop=\count151
-\c@citecount=\count152
-\c@citetotal=\count153
-\c@multicitecount=\count154
-\c@multicitetotal=\count155
-\c@instcount=\count156
-\c@maxnames=\count157
-\c@minnames=\count158
-\c@maxitems=\count159
-\c@minitems=\count160
-\c@citecounter=\count161
-\c@savedcitecounter=\count162
-\c@uniquelist=\count163
-\c@uniquename=\count164
-\c@refsection=\count165
-\c@refsegment=\count166
-\c@maxextratitle=\count167
-\c@maxextratitleyear=\count168
-\c@maxextrayear=\count169
-\c@maxextraalpha=\count170
-\c@abbrvpenalty=\count171
-\c@highnamepenalty=\count172
-\c@lownamepenalty=\count173
-\c@maxparens=\count174
-\c@parenlevel=\count175
-\blx@tempcnta=\count176
-\blx@tempcntb=\count177
-\blx@tempcntc=\count178
-\blx@maxsection=\count179
-\blx@maxsegment@0=\count180
-\blx@notetype=\count181
-\blx@parenlevel@text=\count182
-\blx@parenlevel@foot=\count183
-\blx@sectionciteorder@0=\count184
-\labelnumberwidth=\skip54
-\labelalphawidth=\skip55
-\biblabelsep=\skip56
-\bibitemsep=\skip57
-\bibnamesep=\skip58
-\bibinitsep=\skip59
-\bibparsep=\skip60
-
-
-! LaTeX Error: Command \bibhang already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.462 \newlength{\bibhang}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-\blx@bcfin=\read2
-\blx@bcfout=\write5
-\c@mincomprange=\count185
-\c@maxcomprange=\count186
-\c@mincompwidth=\count187
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-dm.def)
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count188
-\c@savedafterword=\count189
-\c@annotator=\count190
-\c@savedannotator=\count191
-\c@author=\count192
-\c@savedauthor=\count193
-\c@bookauthor=\count194
-\c@savedbookauthor=\count195
-\c@commentator=\count196
-\c@savedcommentator=\count197
-\c@editor=\count198
-\c@savededitor=\count199
-\c@editora=\count266
-\c@savededitora=\count267
-\c@editorb=\count268
-\c@savededitorb=\count269
-\c@editorc=\count270
-\c@savededitorc=\count271
-\c@foreword=\count272
-\c@savedforeword=\count273
-\c@holder=\count274
-\c@savedholder=\count275
-\c@introduction=\count276
-\c@savedintroduction=\count277
-\c@namea=\count278
-\c@savednamea=\count279
-\c@nameb=\count280
-\c@savednameb=\count281
-\c@namec=\count282
-\c@savednamec=\count283
-\c@translator=\count284
-\c@savedtranslator=\count285
-\c@shortauthor=\count286
-\c@savedshortauthor=\count287
-\c@shorteditor=\count288
-\c@savedshorteditor=\count289
-\c@labelname=\count290
-\c@savedlabelname=\count291
-\c@institution=\count292
-\c@savedinstitution=\count293
-\c@lista=\count294
-\c@savedlista=\count295
-\c@listb=\count296
-\c@savedlistb=\count297
-\c@listc=\count298
-\c@savedlistc=\count299
-\c@listd=\count300
-\c@savedlistd=\count301
-\c@liste=\count302
-\c@savedliste=\count303
-\c@listf=\count304
-\c@savedlistf=\count305
-\c@location=\count306
-\c@savedlocation=\count307
-\c@organization=\count308
-\c@savedorganization=\count309
-\c@origlocation=\count310
-\c@savedoriglocation=\count311
-\c@origpublisher=\count312
-\c@savedorigpublisher=\count313
-\c@publisher=\count314
-\c@savedpublisher=\count315
-\c@language=\count316
-\c@savedlanguage=\count317
-\c@pageref=\count318
-\c@savedpageref=\count319
-\shorthandwidth=\skip61
-\shortjournalwidth=\skip62
-\shortserieswidth=\skip63
-\shorttitlewidth=\skip64
-\shortauthorwidth=\skip65
-\shorteditorwidth=\skip66
-
-
-! LaTeX Error: Command \citename already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9791 ...d*{\citename}{\blx@citexpunct{citename}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count320
-\c@textcitetotal=\count321
-\c@textcitemaxnames=\count322
-\c@biburlnumpenalty=\count323
-\c@biburlucpenalty=\count324
-\c@biburllcpenalty=\count325
-
-
-! LaTeX Error: Command \bibfont already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.270 ...ommand*{\bibfont}{\normalfont\normalsize}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-\c@smartand=\count326
-
-Package biblatex Warning: Redefining '\citeauthor'.
-
-
-Package biblatex Warning: Redefining '\citeyear'.
-
-
-! LaTeX Error: Command \Citeauthor already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2067 ...e\citeauthor*}{\bibsentence\citeauthor}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count327
-\c@bbx:relatedtotal=\count328
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
@@ -1489,14 +1222,22 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen192
 \caption@hangindent=\dimen193
 )
-\c@ContinuedFloat=\count329
+\c@ContinuedFloat=\count143
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-\c@subfigure=\count330
-\c@subtable=\count331
+\c@subfigure=\count144
+\c@subtable=\count145
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count146
+\float@exts=\toks38
+\float@box=\box40
+\@float@everytoks=\toks39
+\@floatcapt=\box41
 ))
 ! Emergency stop.
 <*> docsetup.tex
@@ -1505,11 +1246,11 @@ Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 
  
 Here is how much of TeX's memory you used:
- 24244 strings out of 492990
- 440786 string characters out of 6132621
- 663751 words of memory out of 5000000
- 27464 multiletter control sequences out of 15000+600000
+ 18873 strings out of 492990
+ 342427 string characters out of 6132621
+ 410297 words of memory out of 5000000
+ 22131 multiletter control sequences out of 15000+600000
  4403 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,0n,92p,948b,196s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,0n,92p,479b,75s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

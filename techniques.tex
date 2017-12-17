@@ -115,13 +115,37 @@ The Web Mapping Service (WMS) is another standad from OGS for exchanging geograp
 The definitions of Representational State Transfer (REST) are many \citep{Fielding, Richardson}, this paper uses the description by \cite{Fieldinga}: \textit{REST is a coordinated set of architectural constraints that attempts to minimize latency and network communication while at the same time maximizing the independence and scalability of component implementations}. 
 %\cite{Battle2008}: \textit{REST is a pattern of resource operations that has emerged as a de facto standard for service design in Web 2.0 applications.} 
 
-REST is based on the HTTP and HTML standards, and provide simplified calls to services through HTTP. It is only data structures and the transferring of their state that is dealt with in a RESTful service \cite{Battle2008}. The state transferring calls are POST, GET, PUT and DELETE, which receptively creates, reads, updates and deletes resources in the RESTful service. A resource is identified and resolved with a URL.
+REST is commonly based on the HTTP and HTML standards, and provide simplified calls to services through HTTP. It is only data structures and the transferring of their state that is dealt with in a RESTful service \cite{Battle2008}. The state transferring calls are POST, GET, PUT and DELETE, which receptively creates, reads, updates and deletes resources in the RESTful service. A resource is identified and resolved with a URL.
 
 %Representational State Transfer. En tilleggsmekanisme til HTTP som forenkler kall mot tjenester via HTTP. 
 
 
-\subsection{SOAP}
-Simple Object Access Protocol. Tjenestegrensesnitt med
+\subsection{Simple Object Access Protocol (SOAP)}
+Simple Object Access Protocol (SOAP) is a protocol that 
+
+
+\begin{table}[]
+	\centering
+	\caption{TODO description}
+	\label{platind}
+	\begin{tabular}{|l|l|l|l|l|}
+		\hline
+		\rowcolor[HTML]{BBDAFF} 
+		Technique / Service      & \begin{tabular}[c]{@{}l@{}}Platform \\ independent?\end{tabular} &  &  &  \\ \hline
+		NGIS-API                 & -                     &  &  &  \\ \hline
+		Geosynchronisation       & -                     &  &  &  \\ \hline
+		Editing API (Cadastre)   & Yes                   &  &  &  \\ \hline
+		Viewing API (Cadastre)   & Yes                   &  &  &  \\ \hline
+		Changelog API (Cadastre) & Yes                   &  &  &  \\ \hline
+		WFS                      & Yes                   &  &  &  \\ \hline
+		WFS-T                    & Yes                   &  &  &  \\ \hline
+		WMS                      & Yes                   &  &  &  \\ \hline
+		REST                     & Yes                   &  &  &  \\ \hline
+		SOAP                     & Yes                   &  &  &  \\ \hline
+	\end{tabular}
+\end{table}
+
+Tjenestegrensesnitt med
 mekanismer for å hente ut objekter fra en web-basert tjeneste.
 Ofte omtalt som Web Service (den opprinnelige web servicen). 
 
