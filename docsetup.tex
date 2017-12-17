@@ -1,0 +1,28 @@
+
+%%===================================
+\documentclass[10pt]{report}
+\usepackage{GGstyle}
+%%===================================
+
+
+%%===================================
+%Write the various parts of your thesis as separate files and include them into the main file by the command \include{name of included file}. When you compile the LaTeX file, you may choose which subfiles to include by the command
+
+%\includeonly{chapter01,chapter02}
+%AA------------------------------- TODO og referere til andre kapitler --------------------------------
+\usepackage{todonotes} %To make todo-notes
+\usepackage{xr} %Referere til kapitler i andre tex-dokumenter
+%\usepackage[nonumberlist,toc]{glossaries}%Adding glossary, and adding it to contents. "nonumberlist" removes page reference in glossary
+
+%\usepackage{biblatex}
+%\addbibresource{bibtex/library.bib}
+
+%AA------------------------------- Figure layout --------------------------------
+\usepackage{graphicx} % To include images
+\graphicspath{ {figures/} } %To add list of figures
+\usepackage[font=footnotesize, labelfont=bf]{caption} %Setting size of figure text, and making figure numbering bold
+\captionsetup{width=0.9\linewidth} %Setting global width of figure text (can also be set specifically for one figure)
+\usepackage{caption}
+\usepackage{subcaption} %To add caption for each independend side-by-side figure
+
+\usepackage{float}%To allow [H] after figures/tables ++ to force placement

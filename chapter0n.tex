@@ -1,0 +1,128 @@
+\chapter{Techniques for Updating and Synchronising Geodata} \label{chap:tech}
+When submission of new data and modifications on existing data is done for the cadastre and basic map data in Norway, one of the criteria is that all the databases with the same content are updated regardless of where the update is done. What is needed is a geosynchronization service. The synchronization of the FKB data is done with \textit{geosynchronisation}, and updating through the \textit{NGIS-API}, and the cadastre data through the \textit{MatrikkelAPIs}.  This chapter will present these three techniques for getting access to and synchronizing geospatial data.  
+
+
+\section{Quadri Map Server (QMS) and Its Synchronising Services}\label{ngis}
+The \textit{Quadri Map Server} (QMS) is the server of the of the SFKB system. 
+%To synchronize, update or upload data onto the QMS server, either the \textit{NGIS-API} or \textit{geosynchronisation} is used \citep{Kartverket2017}. 
+QMS has a client-server architecture; the servers distribute the data and the clients are able to both fetch data and perform services on them \citep{NorkartAS2010}. 
+%The NGIS-API is an application programming interface for storing spatial data, and GeoSynkronisering is a standard for synchronizing spatial data across different platforms and system solutions \citep{Kartverket2017, Kartverket2013}.
+The structure of the QMS system
+%with the NGIS-API
+is as \cite{Kartverket2017} illustrated it in Figure \ref{fig:qmsfig}: the \textit{archives} (data stores) are used for storing the FKB-data, the \textit{portals} defines the clients and authorizes users for different tasks, and a task is defined as access to an archive. The data stored in, and uploaded into, QMS is defined by the \textit{object catalogue}, and the service of translating logical, humanly meaningful, names of the distributing servers into unique identifiers (UUID) is the \textit{name server}. All the objects in the archives are given UUIDs, no other spatial object carries the same, simplifying search and linking processes. 
+The \textit{NGIS-API} is the application programming interface for storing spatial data into QMS.% The SOSI format, the standard for geographical data in Norway is used. As the SOSI-standard follows the INSPIRE directive by suggesting that
+%This is due to the fact that the SOSI-standard follows the INSPIRE directive, and suggests that all object have an UUID  The UUID the SOSI-standard follows the INSPIRE standard for identifying spatial objects \citep{Kartverket2012, Hokstad2016}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{img/ngiss.png}
+	\caption{The structure of the Quadri Map Server (QMS) system. For updating the data in QMS the NGIS-API is used.  The main components of the system are portals, object catalogue and archives. It is possible to use geosynchronisation (chapter \ref{geosync}) to manage the data in QMS, in addition to the NGIS-API. Figure adopted from \citep{Kartverket2017b} }
+	\label{fig:qmsfig}
+\end{figure}
+
+\subsection{NGIS-API}
+
+When editing an existing object in QMS, e.g. a building or the land use of an area, the object gets locked in the archive, and the user edits the object locally. When the updating is done the user has to send the object back, together with objects that have been edided, added or deleted, to it's archive. When the objects are locked in the archives, other users can not edit the same object, but they might look at it. This process is called long transactions \citep{Kartverket2017b}.
+
+
+
+%The service of translating logical, humanly meaningful, names of the distributing servers into unique identifiers (UUID) is the Name server. The Name server is a computer permanently connected to the Internet and is invisible to the common client of the QMS system. Because the servers are registered in the Name server at initialization, starting a server on a new machine will automatically update the Name server. 
+
+%\subsection{Portals}
+%It is the portals that handles the client access to the data in QMS, and the clients and their available tasks are defined here. A client's task is for updating and reading into QMS via teh NGIS-API
+
+%The archives 
+%\begin{itemize}
+%	\item navnetjeneste
+%	\item portaler
+%	\item archives
+%	\item object catalogues.
+%\end{itemize}
+
+
+
+\subsection{\textit{GeoSynkronisering} - the Geosynchronisation Standard}\label{geosync}
+
+Geosynchronising (\textit{GeoSynkronisering}) is a Norwegian standard for synchronising geographical information across computer systems, and is a provider-subscriber system as illustrated in figure \ref{fig:geosync} \citep{Kartverket2013}. The provider updates the database with new data, and subscribers are allowed to update their databases with the changes done by the provider. The SFKB works as a provider: if data is changed or added in QMS the features will automaticly be geosynchronised to all subscribers. Subscribers in the SFKB-system are e.g. the municipalities and GeoNorge. GeoNorge is the web page where public agencies and institutions as well as private actors can get map data and other geospatial information for Norway.  
+
+The project of making a standard interface for geosynchronisation services in Norway was carried out in 2012, and was a collaboration between Kartverket and system providers in Norway. This Norwegian standard is based on the concepts and methods from international standards, i.e. ISO 19100 Geographic Information/Geomatics and Open Geospatial Consortium (OGC) \citep{Kartverket2013}.
+
+ 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{img/geosync.png}
+	\caption{The geosynchronisation concept, adopted from \cite[p.~16]{Kartverket2013} }
+	\label{fig:geosync}
+\end{figure}
+
+
+The data transfer with geosynchronising (figure \ref{fig:geosyncprocess}) is a set of transactions of changed features on the GML-format and their respective changelogs are specified by the WFS-T.  GML (Geography Markup Language) is a open interchange format for geographic transactions and a modeling language for geospatial systems \citep{OGC2017}, and WFS-T (Transactional Web Feature Service) allows creation, deletion, and updating of geospatial features on the web \citep{OGCNetwork} and will be further described in chapter \ref{wfs}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{img/geosynkkk.png}
+	\caption{The geosynchronisation process, adopted from \cite{Eggan2017} }
+	\label{fig:geosyncprocess}
+\end{figure}
+
+Geosynchronising is a service that permits databases with geospatial content to synchronize across different platforms and system solutions \citep{Kartverket2013}, as opposed to the NGIS-API that is a platform dependent API due to its criterion of using c++ programming language and that the developer using it needs to provide the compiler Microsoft Visual Studio \citep{Kartverket2017b, Norkart2011}.
+
+%TODO Sjekk ut dette og fyll det ut: For the SFKB system the municipalities, and the other agencies managing the updating of the FKB data in Norway, will still have a local copy of the geodata. It is this copy they are editing  \citep{Kartverket2016}  
+\section{The central cadastral server and its APIs}
+%There are several services provided by the cadastre;  The cadastral server has the logic for managing and assembling the cadastral records), as well as control and validation of the business rules of the information. Clients of the cadastre can update and read the cadastal records through the MatrikkelAPI \citep{Difi2014, Matrikkelavdelingen2017}. 
+%(a further presentation of the MatrikkelAPI and system will be provided in chapter \ref{chap:matrikkelapi})
+%As was stated in chapter ref 
+There are several services provided by the cadastre, Matrikkelen; the \textit{cadastral server} serves all clients, both editing and viewing (figure \ref{fig:matr}). The logic of the cadastre server includes management and assembling of cadastre information, as well as control and validation of the business rules of it. The only way to get access to the data on the \textit{cadastre database} is through the MatrikkelAPI (chapter \ref{matrikkelapi}) that is on the cadastral central server \citep[p.~338]{Matrikkelavdelingen2017}. Submissions and modifications on the cadastral data are done to the centralised data store directly, as for the new SFKB system. When wanting to keep a local cadastre copy, the Matrikkel system provides a \textit{Changelog API} for synchronizing changes on the central data store. See figure \ref{fig:matr}. 
+
+The physical architecture of the central cadastral server is clustered, meaning there are several physical servers, but for the clients they will appear as one. %(High-Availability Cluster? \citep{IWebTechnologies2015})
+
+
+\subsection{The MatrikkelAPIs} \label{matrikkelapi}
+The MatrikkelAPIs is application programming interfaces for extracting data, in both small and large scale, of the cadastral data.  
+
+There are three MatrikkelAPIs. The first one is for the clients with access to updating the cadastre data - the \textit{Editing API}, the second one the \textit{Viewer API} includes services for inspecting and reading the data and the \textit{Changelog API}, as stated earlier, provides services for fetching data changes - primarily for the local copies at the municipalities, but also for external registers.  The Viewing API support other services as well: web services as WMS that deliver raster maps with addresses as points and buildings and areas for land parcels as well as WFS delivering vectorised map	and properties for addresses, buildings and land parcels. 
+
+There are several types of clients to the cadastre system: the \textit{updating}-, \textit{viewing}- and \textit{retrieval clients} as well as \textit{other systems}. The updating clients support inspection and updating for all information on the cadastre, the viewing clients supports inspection of the data, as well as viewing the cadastral data joint with data from external systems, and lastly the retrieval clients supports updating external municipality registers (KommuneGAB). Other systems using the cadastre system are mainly systems that uses cadastral information for other software solutions, e.g. a municipal specialized system \citep[p.~337-338]{Matrikkelavdelingen2017}.
+ 
+%As for the SFKB system, the municipalities updates the cadastre data directly into a national and centralized database. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{img/matrikkelSYS}
+	\caption{The cadastre system, \textit{Matrikkelen}. Solutions for databases through API, clients and relations to other information systems. Adapted from \citep[p.~337]{Matrikkelavdelingen2017} }
+	\label{fig:matr}
+\end{figure}
+
+\section{Other Generic Services}
+There are several web services, ways to access web-based geospatial data. These technologies have been created to facilitate the exchange of geospatial information and to find new ways to communicate geodata and to redefine the work flow of the geospatial analysis. In the following subchapters some of them are presented.  
+
+\subsection{Standard Spesifications from the Open Geospatial Consortium)}\label{OGC}
+To get a higher interoperability in the Geographical Information System (GIS) community the Open Geospatial Consortium (OGC) has created standard specifications for data sharing, processing, retrieval, visualisation, content and cataloguing \citep{giuliani2013}.
+
+\subsubsection{The Web Feature Service (WFS)}\label{wfs}
+
+The Web Feature Service (WFS) is a standard geodata extracting service for describing data manipulation on feature level \citep{Peng2005, Norgedigitalt2014}. The specification defines interfaces required to support transactions and query operations on geospatial features over the internet.
+
+The GML-format is the defacto standard transferring format, but WFS supports other formats as well \citep{Eggan2017}. By using GML for the exhange of geospatial data,  interoperability between the heterogeneous system is provided \citep{YaoXiaobai2008Iimo}.
+
+\subsubsection{The Web Mapping Service (WMS)}
+The Web Mapping Service (WMS) is another standad from OGS for exchanging geograpichal information over the web. When using the Web Mapping Service(WMS) the user is given an image of a map that cannot be edited or spatially analysed. 	
+
+
+\subsection{Representational State Transfer (REST)}
+The definitions of Representational State Transfer (REST) are many \citep{Fielding, Richardson}, this paper uses the description by \cite{Battle2008}: \textit{ is a pattern of resource operations that has emerged as a de facto standard for service design in Web 2.0 applications.} 
+
+
+REST is based on the HTTP and HTML standards 
+To this day differences exist among the authors regarding what
+is the “right” or “best” definition of REST.
+
+Representational State Transfer. En tilleggsmekanisme til HTTP som forenkler kall mot tjenester via HTTP. 
+
+The state transferring operations in REST-APIs are POST, GET, PUT and DELETE
+
+\subsection{SOAP}
+Simple Object Access Protocol. Tjenestegrensesnitt med
+mekanismer for å hente ut objekter fra en web-basert tjeneste.
+Ofte omtalt som Web Service (den opprinnelige web servicen). 
+

@@ -1,0 +1,49 @@
+%This is chapter 2
+%%=========================================
+%\chapter[Equations, etc]{Equations, Figures, and Tables}
+\externaldocument{techniques.tex}
+\chapter{The Main Geospatial Data Systems in Norway}\label{chap:examples}
+Two of the main registers of map- and real property data in Norway are the \textit{Felles Kartdatabase} (FKB), the primary map data,  and \textit{Matrikkelen}, the cadastral data store. The production, maintainance and updating of both are done by \textit{Kartverket}, the Norwegian Mapping Authority, in collaboration with the members of the Geovekst project. Geovekst is a geodata collaboration between different Norwegian public agencies, such as Kartverket, the municipalities and Statens vegvesen \citep{Kartverket2017a}. By carrying out joint mapping projects Geovekst establish and maintain a common set of map data in Norway. 
+
+\section{\textit{Sentral Felles Kartdatabase} - The Central Map Data Store}\label{SFKB}
+To enhance the efficient integration, distribution and transport of the FKB-data, the implementation of \textit{Sentral felles kartdatabase} (SFKB), the centralised map data store, started in October 2016. This is a system that centralises the management of the primary map data (FKB) in Norway \citep{Kartverket2017}. The FKB data is the most detailed map data, ranging on a scale from 1:500 to 1:30000. They are all on a vectorised form, and used in e.g. production of technical maps and geographical analysis. Some examples of the FKB data are buildings, roads and water. 
+%The SOSI-standard, the Norwegian standard for geospatial information, is followed for all FKB objects.  
+
+Through the SFKB system public agencies, such as the municipalities, are able do directly update the FKB-map data into a central map data store. This ensures the users of the FKB-map data access to fresh and quality assured data at all times. Earlier the updated map data was stored locally at the municipalities, and sent to Kartverket only 1-2 times a year. As of November 2017 there are five municipalities (Bergen, Bærum, Oslo, Stavanger and Trondheim) that are not members of Geovekst collaboration. These five municipalities have the opportunity to update their FKB-data directly to the central registry, but it is only Bærum that have chosen to do so \citep{Kartverket2017}. As a pilot Trondheim municipality, using geosynchronisation (see figure \ref{geosync}), works as a provider of the FKB offering map data to subscribers \citep{Saether2016,Sandal2016}. The remaining three municipalities have chosen to keep and update local copies, and send those copies to Kartverket regularly as was the earlier standard.
+
+%This might cause problems to users needing the most up-to-date information \citep{Peng2005}.
+
+\section{\textit{Matrikkelen} The Norwegian Cadastre}\label{cadastre}
+
+The objective of the cadastre, in Norwegian called \textit{Matrikkelen}, is to serve as a registry of cadastal units and property in Norway, i.e buildings, parcels and addresses. There are several usages of  the cadastre. For the municipalities and the local administrations the cadastre is an important tool for e.g. land use planning and collection of fees; for the government it is a tool for deriving statistic and for the private sector it gives valuable information for the property marked amongst other things \citep{Mjos2002}. The server of the cadastre runs centrally at Kartverket.  
+
+
+\subsection{Data Flow of the Two Systems}
+The management systems of the \textit{SFKB} and the cadastre have the same dataflow as is illustrated in figure \ref{fig:konsept}. \textit{The municipalities}  update the central data stores through an application programming interface (API), and \textit{the central management}, with the main responsibility for the content of the database (Kartverket), controls the data stores and does periodical updates on them. With a synchronisation API (further explained in chapter \ref{chap:tech}), local copies at the municipalities and distributional copies for all end-users of the mapdata will be kept up-to-date \citep{Kartverket2015}.
+
+
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[scale=0.7]{img/consept.png}
+%	\caption{Illustration of the concept of data distribution in the systems of both SFKB and the cadastre. The figure is adopted from \cite{Kartverket2015} }
+%	\label{fig:konsept}
+%\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.8]{img/consept.png}
+	\caption{Illustration of the concept of data distribution in the systems of both SFKB and the cadastre. The figure is adopted from \cite{Kartverket2015} }
+	\label{fig:konsept}
+\end{figure}
+
+
+%%=========================================
+%\section{Plagiarism}
+
+%\begin{quote}
+%Two totally different cases, referred to as creep hypotheses $A$ and $B$, have been used as a basis of discussion to assess the effect of creep during the primary consolidation phase.
+%\newline \mbox{} \hfill \citet{Deg2011Geo}
+%\end{quote}
+%&\end{itemize}
+
+
+

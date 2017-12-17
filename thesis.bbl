@@ -1,0 +1,139 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Battle and Benson}{2008}]{Battle2008}
+Battle, R. and Benson, E. (2008).
+\newblock {Bridging the semantic Web and Web 2.0 with Representational State
+  Transfer (REST)}.
+\newblock {\em Web Semantics: Science, Services and Agents on the World Wide
+  Web}, 6(1):61--69.
+
+\bibitem[\protect\astroncite{Breslow}{2004}]{Breslow2004}
+Breslow, N. (2004).
+\newblock {Wide Area File Sharing Across the WAN}.
+\newblock {\em Computer Technology Review}, 24(8):33--34.
+
+\bibitem[\protect\astroncite{Dontigney}{2017}]{Dontigney2017}
+Dontigney, E. (2017).
+\newblock {The Advantages of Centralized Database Storage | Bizfluent}.
+
+\bibitem[\protect\astroncite{Eggan and Pedersen}{2017}]{Eggan2017}
+Eggan, L. and Pedersen, J. (2017).
+\newblock {WFS for transaksjoner WFS-T}.
+
+\bibitem[\protect\astroncite{Fielding et~al.}{2017}]{Fielding}
+Fielding, R.~T., Taylor, R.~N., Erenkrantz, J.~R., Gorlick, M.~M., Whitehead,
+  J., Khare, R., and Oreizy, P. (2017).
+\newblock {Reflections on the REST Architectural Style and " Principled Design
+  of the Modern Web Architecture " (Impact Paper Award)}.
+\newblock {\em Proceedings of 2017 11th Joint Meeting of the European Software
+  Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of
+  Software Engineering}.
+
+\bibitem[\protect\astroncite{Frenvik}{2017}]{Frenvik2017}
+Frenvik, A. (2017).
+\newblock {Det {\aa}pne geodata-{\o}kosystemet}.
+\newblock {\em Kart og Plan}, 77(5003):108--120.
+
+\bibitem[\protect\astroncite{Giuliani et~al.}{2013}]{giuliani2013}
+Giuliani, G., Dubois, A., and Lacroix, P. (2013).
+\newblock {Testing OGC Web Feature and Coverage Service performance: Towards
+  efficient delivery of geospatial data}.
+\newblock {\em Journal of Spatial Information Science}, 2013(7):1--23.
+
+\bibitem[\protect\astroncite{INSPIRE}{2017}]{INSPIRE}
+INSPIRE (2017).
+\newblock {About INSPIRE}.
+
+\bibitem[\protect\astroncite{Kartverket}{2013}]{Kartverket2013}
+Kartverket (2013).
+\newblock {Standarder Geografisk Informasjon -Geosynkronisering Versjon 1.0}.
+
+\bibitem[\protect\astroncite{Kartverket}{2015}]{Kartverket2015}
+Kartverket (2015).
+\newblock {Sentral forvaltningsl{\o}sning for primaerdata}.
+
+\bibitem[\protect\astroncite{Kartverket}{2017a}]{Kartverket2017b}
+Kartverket (2017a).
+\newblock {Informasjon og dokumentasjon om NGIS-API | Kartverket}.
+
+\bibitem[\protect\astroncite{Kartverket}{2017b}]{Kartverket2017e}
+Kartverket (2017b).
+\newblock {Ofte stilte sp{\o}rsm{\aa}l}.
+
+\bibitem[\protect\astroncite{Kartverket}{2017c}]{Kartverket2017a}
+Kartverket (2017c).
+\newblock {Om Geovekst-samarbeidet}.
+
+\bibitem[\protect\astroncite{Kartverket}{2017d}]{Kartverket2017}
+Kartverket (2017d).
+\newblock {Sentral Felles Kartdatabase - Systembeskrivelse}.
+
+\bibitem[\protect\astroncite{Lohrer et~al.}{2016}]{LOHRER2016558}
+Lohrer, J.-Y., Kaltenthaler, D., Kr{\"{o}}ger, P., van~der Meijden, C., and
+  Obermaier, H. (2016).
+\newblock {A generic framework for synchronized distributed data management in
+  archaeological related disciplines}.
+\newblock {\em Future Generation Computer Systems}, 56(Supplement C):558--570.
+
+\bibitem[\protect\astroncite{Matrikkelavdelingen}{2017}]{Matrikkelavdelingen2017}
+Matrikkelavdelingen (2017).
+\newblock {Samla systemspesifikasjon Matrikkelens innhold og funksjonalitet
+  Klient Dokumentnummer: MA--nnnn}.
+
+\bibitem[\protect\astroncite{Mj{\o}s}{2002}]{Mjos2002}
+Mj{\o}s, L.~B. (2002).
+\newblock {New Cadastre in Norway}.
+\newblock {\em TS7.12Regional Experience in the Cadastre – Europe II}.
+
+\bibitem[\protect\astroncite{{\{}Norge digitalt{\}}}{2014}]{Norgedigitalt2014}
+{\{}Norge digitalt{\}} (2014).
+\newblock {Veileder for Web Feature Service (WFS)}.
+
+\bibitem[\protect\astroncite{Norkart}{2011}]{Norkart2011}
+Norkart (2011).
+\newblock {Quadri Map Server - Utviklerh{\aa}ndbok}.
+
+\bibitem[\protect\astroncite{{Norkart AS}}{2010}]{NorkartAS2010}
+{Norkart AS} (2010).
+\newblock {Quadri Map Server - Overordnet beskrivelse}.
+
+\bibitem[\protect\astroncite{OGC}{2017}]{OGC2017}
+OGC (2017).
+\newblock {Geography Markup Language}.
+
+\bibitem[\protect\astroncite{{OGC Network}}{2011}]{OGCNetwork}
+{OGC Network} (2011).
+\newblock {WFS-Transaction (WFS-T) tutorial}.
+
+\bibitem[\protect\astroncite{Peng}{2005}]{Peng2005}
+Peng, Z. (2005).
+\newblock {A proposed framework for feature‐level geospatial data sharing: a
+  case study for transportation network data}.
+\newblock {\em International Journal of Geographical Information Science},
+  19(4):459--481.
+
+\bibitem[\protect\astroncite{Reichardt}{2012}]{Reichardt2012}
+Reichardt, M. (2012).
+\newblock {New OGC standard supports "GeoSynchronization"}.
+\newblock {\em GeoInformatics; Emmeloord}, 15(7):1.
+
+\bibitem[\protect\astroncite{Richardson and Amundsen}{2013}]{Richardson}
+Richardson, L. and Amundsen, M. (2013).
+\newblock {\em {RESTful Web APIs}}.
+
+\bibitem[\protect\astroncite{S{\ae}ther}{2016}]{Saether2016}
+S{\ae}ther, M.~H. (2016).
+\newblock {Status geosynkronisering i Trondheim kommune}.
+
+\bibitem[\protect\astroncite{Sandal}{2016}]{Sandal2016}
+Sandal, K. (2016).
+\newblock {Sentral lagring av FKB med ISY WinMap Kjell Sandal Norconsult
+  Informasjonssystemer AS}.
+
+\bibitem[\protect\astroncite{Yao and Zou}{2008}]{YaoXiaobai2008Iimo}
+Yao, X. and Zou, L. (2008).
+\newblock {Interoperable internet mapping--an open source approach.(Technical
+  report)}.
+\newblock {\em Cartography and Geographic Information Science}, 35(4).
+
+\end{thebibliography}

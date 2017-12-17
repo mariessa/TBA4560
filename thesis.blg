@@ -1,0 +1,77 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: front.aux
+A level-1 auxiliary file: preface.aux
+A level-1 auxiliary file: summary.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: systems.aux
+A level-1 auxiliary file: techniques.aux
+A level-1 auxiliary file: otherCountries.aux
+A level-1 auxiliary file: centraliseddb.aux
+A level-1 auxiliary file: conclusion.aux
+A level-1 auxiliary file: acronyms.aux
+A level-1 auxiliary file: appendix-b.aux
+The style file: apa.bst
+Database file #1: bibtex/library.bib
+Repeated entry---line 432 of file bibtex/library.bib
+ : @unpublished{Eggan2017
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 458 of file bibtex/library.bib
+ : @unpublished{Kartverket2013
+ :                            ,
+I'm skipping whatever remains of this entry
+Warning--empty note in Eggan2017
+Warning--empty note in Kartverket2013
+Warning--empty note in Kartverket2015
+Warning--empty note in Kartverket2017
+Warning--empty note in Matrikkelavdelingen2017
+Warning--empty note in Norgedigitalt2014
+Warning--empty note in Norkart2011
+Warning--empty note in NorkartAS2010
+Warning--empty publisher in Richardson
+Warning--empty note in Saether2016
+Warning--empty note in Sandal2016
+You've used 28 entries,
+            1940 wiz_defined-function locations,
+            641 strings with 7629 characters,
+and the built_in function-call counts, 8172 in all, are:
+= -- 792
+> -- 283
+< -- 25
++ -- 91
+- -- 88
+* -- 697
+:= -- 1546
+add.period$ -- 66
+call.type$ -- 28
+change.case$ -- 183
+chr.to.int$ -- 25
+cite$ -- 39
+duplicate$ -- 311
+empty$ -- 527
+format.name$ -- 124
+if$ -- 1483
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 12
+newline$ -- 125
+num.names$ -- 84
+pop$ -- 120
+preamble$ -- 1
+purify$ -- 184
+quote$ -- 0
+skip$ -- 271
+stack$ -- 0
+substring$ -- 468
+swap$ -- 39
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 166
+warning$ -- 11
+while$ -- 69
+width$ -- 0
+write$ -- 310
+(There were 2 error messages)
