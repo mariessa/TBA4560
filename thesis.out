@@ -9,22 +9,15 @@
 \BOOKMARK [1][-]{section.3.1}{Quadri Map Server \(QMS\) and Its Synchronising Services}{chapter.3}% 9
 \BOOKMARK [2][-]{subsection.3.1.1}{NGIS-API}{section.3.1}% 10
 \BOOKMARK [2][-]{subsection.3.1.2}{GeoSynkronisering - the Geosynchronisation Standard}{section.3.1}% 11
-\BOOKMARK [1][-]{section.3.2}{The central cadastral server and its APIs}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.2}{The Central Cadastral Server and its APIs}{chapter.3}% 12
 \BOOKMARK [2][-]{subsection.3.2.1}{The MatrikkelAPIs}{section.3.2}% 13
 \BOOKMARK [1][-]{section.3.3}{Other Generic Services}{chapter.3}% 14
 \BOOKMARK [2][-]{subsection.3.3.1}{Standard Spesifications from the Open Geospatial Consortium\)}{section.3.3}% 15
-\BOOKMARK [2][-]{subsection.3.3.2}{Representational State Transfer \(REST\)}{section.3.3}% 16
-\BOOKMARK [2][-]{subsection.3.3.3}{Simple Object Access Protocol \(SOAP\)}{section.3.3}% 17
-\BOOKMARK [0][-]{chapter.4}{Equivalent systems in the other Scandinavian countries}{}% 18
-\BOOKMARK [1][-]{section.4.1}{Sweden}{chapter.4}% 19
-\BOOKMARK [2][-]{subsection.4.1.1}{The geodata cooperation, Geodatasamverkan evt geodataportalen}{section.4.1}% 20
-\BOOKMARK [1][-]{section.4.2}{Denmark}{chapter.4}% 21
-\BOOKMARK [2][-]{subsection.4.2.1}{INSPIRE}{section.4.2}% 22
-\BOOKMARK [0][-]{chapter.5}{Directly Updating versus Local Updating}{}% 23
-\BOOKMARK [1][-]{subsection.5.0.1}{Previous work - generic API's}{chapter.5}% 24
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 25
-\BOOKMARK [0][-]{appendix.A}{Acronyms}{}% 26
-\BOOKMARK [0][-]{appendix.B}{Additional Information}{}% 27
-\BOOKMARK [1][-]{section.B.1}{Introduction}{appendix.B}% 28
-\BOOKMARK [2][-]{subsection.B.1.1}{More Details}{section.B.1}% 29
-\BOOKMARK [0][-]{subsection.B.1.1}{Bibliography}{}% 30
+\BOOKMARK [2][-]{subsection.3.3.2}{Simple Object Access Protocol \(SOAP\)}{section.3.3}% 16
+\BOOKMARK [2][-]{subsection.3.3.3}{Representational State Transfer \(REST\)}{section.3.3}% 17
+\BOOKMARK [0][-]{chapter.4}{Platform Independent Services}{}% 18
+\BOOKMARK [1][-]{subsection.4.0.1}{Previous work - generic API's}{chapter.4}% 19
+\BOOKMARK [0][-]{chapter.5}{Directly Updating versus Local Updating}{}% 20
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 21
+\BOOKMARK [0][-]{appendix.A}{Glossary}{}% 22
+\BOOKMARK [0][-]{appendix.A}{Bibliography}{}% 23

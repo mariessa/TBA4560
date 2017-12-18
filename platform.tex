@@ -1,0 +1,59 @@
+
+
+\chapter{Platform Independent Services}
+
+This chapter will present papers (TODO er dette tilfellet?) concerning generic API's and framwork depending API's. A generic API (or service) is a platform independent service, a software able to run on any hard- or software platform.
+
+Geosynchronising is a service that permits databases with geospatial content to synchronize across different platforms and system solutions \citep{Kartverket2013}, as opposed to the NGIS-API that is a platform dependent API due to its criterion of using c++ programming language and that the developer using it needs to provide the compiler Microsoft Visual Studio \citep{Kartverket2017b, Norkart2011}.
+
+From figure \ref{fig:matr} can we observe that the Cadastre Editing API is Java dependent, but with the aid of a Java/-NET Bridging Service it can be used with .NET. as well. In 2018 this API will be available as a SOAP service, and thus platform independent. 
+
+An overview of the different services and APIs discussed in the previous chapter is presented in table \ref{services} below.
+
+\begin{table}[H]
+	\centering
+	\caption{An overview of the services presented in this chapter. Showing which ones that are platform independent and not. TODO: er det riktig det som står om editing API?}
+	\label{services}
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\rowcolor[HTML]{B6C7DD} 
+		\textbf{Technique / Service} & \textbf{\begin{tabular}[c]{@{}l@{}}Platform \\ independent?\end{tabular}} & \textbf{Comment}                                                                                                                                                                                                                            \\ \hline
+		NGIS-API                     & No                                                                        &                                                                                                                                                                                                                                             \\ \hline
+		Geosynchronisation           & Yes                                                                       &                                                                                                                                                                                                                                             \\ \hline
+		Editing API (Cadastre)       & No                                                                        & \begin{tabular}[c]{@{}l@{}}Is Java dependent, but with the help of a \\ Java/-NET Bridging Service component \\ it can be used with .NET. \\ Will be available as a SOAP Service Q1 \\ in 2018, and thus platform independent.\end{tabular} \\ \hline
+		Viewing API (Cadastre)       & Yes                                                                       &                                                                                                                                                                                                                                             \\ \hline
+		Changelog API (Cadastre)     & Yes                                                                       &                                                                                                                                                                                                                                             \\ \hline
+		WFS                          & Yes                                                                       &                                                                                                                                                                                                                                             \\ \hline
+		WFS-T                        & Yes                                                                       &                                                                                                                                                                                                                                             \\ \hline
+		WMS                          & Yes                                                                       &                                                                                                                                                                                                                                             \\ \hline
+		REST                         & Yes                                                                       &                                                                                                                                                                                                                                             \\ \hline
+		SOAP                         & Yes                                                                       &                                                                                                                                                                                                                                             \\ \hline
+	\end{tabular}
+\end{table}
+
+
+
+
+\subsection{Previous work - generic API's}
+
+%Bruk og argumenter for/mot bruk av generiske tjenester (WMS, WFS, WPS), kontra egne spesialiserte API'er (?). Plattformuavhengige API'er (WebService, REST) vs. plattformavhengigeAPI'er.
+
+\cite{giuliani2013} wanted in their paper to benchmark and evaluate the quality of the web services WFS and WCS (Web Coverage Service). They conclude that, amongst other things, the OGC specifications (WFS, WCS) are providing interoperable access to data in an efficient and timely manner, but the specifications are not convenient for transferring large volumes of data.  The experience from the Norwegian geosynchronisation projects shows the opposite. By zipping the transaction files (WFS-T with GML), the volume is decreased, resulting in a minor latency for synchronising of the data. An example is provided: a large initial dataset with 220'000 features from the Planning dataset was synchronised from the provider to the Geosynchronising subscriber in only 2.5 minutes. The objects were sent as a initial dataset meaning they were preprocessed  (see figure \ref{fig:geosyncprocess}), but it still proves that the WFS standard can transfer voluminous/big data. (TODO Kan jeg rerferere til samtale?-----)
+
+\cite{giuliani2013}
+
+
+
+\begin{itemize}
+	\item TODO \cite{Zhao2012}
+	\item Several studies [8,13,21] \cite{giuliani2013}
+\end{itemize}
+
+
+
+%Although the promise of SOAP (and Web services) is portability, reality often bites back with a vengeance. Even our example application requires care and experimentation to make exception handling work across different SOAP implementations. Other quirks (for instance, handling the soapAction attribute in line 51 of the WSDL) can provide hours of frustration. It’s always good to keep in mind that communicating with XML can be very inefficient. Because XML is textual and verbose, converting data to XML and back can hog application performance. On the other hand, in distributed applications over the network, factors such as network latency are likely to be just as important. Still, the fact that technology now lets us build interoperable, distributed applications doesn’t mean that all the applications we build from now on will be of that ilk. As always, a careful assessment of the specific requirements is essential, before rushed decisions
+
+
+
+
+%Several studies [8,13,21] have shown that projects that have adopted and implemented geospatial interoperability standards saved around 25 percent of their time, compared to those who rely on proprietary standards. These reports also showed that using geospatial interoperability standards lowers the transaction costs for sharing data and information. The fact that exchange of data and information is performed on standardized interfaces enhances flexibility and adaptability of projects over time. \cite{giuliani2013}

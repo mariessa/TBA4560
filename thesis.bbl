@@ -1,151 +1,175 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{xx}
 
-\bibitem[\protect\astroncite{Battle and Benson}{2008}]{Battle2008}
-Battle, R. and Benson, E. (2008).
-\newblock {Bridging the semantic Web and Web 2.0 with Representational State
-  Transfer (REST)}.
-\newblock {\em Web Semantics: Science, Services and Agents on the World Wide
-  Web}, 6(1):61--69.
+\harvarditem{Battle \harvardand\ Benson}{2008}{Battle2008}
+Battle, R. \harvardand\ Benson, E.  \harvardyearleft 2008\harvardyearright ,
+  `{Bridging the semantic Web and Web 2.0 with Representational State Transfer
+  (REST)}', {\em Web Semantics: Science, Services and Agents on the World Wide
+  Web} {\bf 6}(1),~61--69.
+\newline\harvardurl{https://www.sciencedirect.com/science/article/pii/S1570826807000510}
 
-\bibitem[\protect\astroncite{Breslow}{2004}]{Breslow2004}
-Breslow, N. (2004).
-\newblock {Wide Area File Sharing Across the WAN}.
-\newblock {\em Computer Technology Review}, 24(8):33--34.
+\harvarditem{Breslow}{2004}{Breslow2004}
+Breslow, N.  \harvardyearleft 2004\harvardyearright , `{Wide Area File Sharing
+  Across the WAN}', {\em Computer Technology Review} {\bf 24}(8),~33--34.
+\newline\harvardurl{https://search.proquest.com/docview/220625417/fulltext/F62DDAFAD0C2496EPQ/1?accountid=12870}
 
-\bibitem[\protect\astroncite{Ceeb}{2013}]{Ceeb2013}
-Ceeb (2013).
-\newblock {How to build a REST Web API on a Raspberry PI in JavaScript - The
-  Floppy Disk}.
+\harvarditem{Ceeb}{2013}{Ceeb2013}
+Ceeb  \harvardyearleft 2013\harvardyearright , `{How to build a REST Web API on
+  a Raspberry PI in JavaScript - The Floppy Disk}'.
+\newline\harvardurl{http://www.robert-drummond.com/2013/05/08/how-to-build-a-restful-web-api-on-a-raspberry-pi-in-javascript-2/}
 
-\bibitem[\protect\astroncite{Dontigney}{2017}]{Dontigney2017}
-Dontigney, E. (2017).
-\newblock {The Advantages of Centralized Database Storage | Bizfluent}.
+\harvarditem{Dontigney}{2017}{Dontigney2017}
+Dontigney, E.  \harvardyearleft 2017\harvardyearright , `{The Advantages of
+  Centralized Database Storage | Bizfluent}'.
+\newline\harvardurl{https://bizfluent.com/info-8623828-advantages-centralized-database-storage.html}
 
-\bibitem[\protect\astroncite{Eggan and Pedersen}{2017}]{Eggan2017}
-Eggan, L. and Pedersen, J. (2017).
-\newblock {WFS for transaksjoner WFS-T}.
+\harvarditem{Eggan \harvardand\ Pedersen}{2017}{Eggan2017}
+Eggan, L. \harvardand\ Pedersen, J.  \harvardyearleft 2017\harvardyearright ,
+  {WFS for transaksjoner WFS-T}.
+\newline\harvardurl{https://www.geonorge.no/globalassets/geonorge2/teknologiforum/2017/eggan{\_}wfs-t{\_}nois{\_}nov2017{\_}tf.pdf}
 
-\bibitem[\protect\astroncite{Fielding and Taylor}{1995}]{Fieldinga}
-Fielding, R.~T. and Taylor, R.~N. (1995).
-\newblock {Principled Design of the Modern Web Architecture}.
+\harvarditem{Fielding \harvardand\ Taylor}{1995}{Fieldinga}
+Fielding, R.~T. \harvardand\ Taylor, R.~N.  \harvardyearleft
+  1995\harvardyearright , `{Principled Design of the Modern Web Architecture}'.
+\newline\harvardurl{https://www.ics.uci.edu/{~}fielding/pubs/webarch{\_}icse2000.pdf}
 
-\bibitem[\protect\astroncite{Fielding et~al.}{2017}]{Fielding}
+\harvarditem[Fielding et~al.]{Fielding, Taylor, Erenkrantz, Gorlick, Whitehead,
+  Khare \harvardand\ Oreizy}{2017}{Fielding}
 Fielding, R.~T., Taylor, R.~N., Erenkrantz, J.~R., Gorlick, M.~M., Whitehead,
-  J., Khare, R., and Oreizy, P. (2017).
-\newblock {Reflections on the REST Architectural Style and " Principled Design
-  of the Modern Web Architecture " (Impact Paper Award)}.
-\newblock {\em Proceedings of 2017 11th Joint Meeting of the European Software
-  Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of
-  Software Engineering}.
+  J., Khare, R. \harvardand\ Oreizy, P.  \harvardyearleft 2017\harvardyearright
+  , `{Reflections on the REST Architectural Style and " Principled Design of
+  the Modern Web Architecture " (Impact Paper Award)}', {\em Proceedings of
+  2017 11th Joint Meeting of the European Software Engineering Conference and
+  the ACM SIGSOFT Symposium on the Foundations of Software Engineering} .
+\newline\harvardurl{https://static.googleusercontent.com/media/research.google.com/no//pubs/archive/46310.pdf}
 
-\bibitem[\protect\astroncite{Frenvik}{2017}]{Frenvik2017}
-Frenvik, A. (2017).
-\newblock {Det {\aa}pne geodata-{\o}kosystemet}.
-\newblock {\em Kart og Plan}, 77(5003):108--120.
+\harvarditem{Frenvik}{2017}{Frenvik2017}
+Frenvik, A.  \harvardyearleft 2017\harvardyearright , `{Det {\aa}pne
+  geodata-{\o}kosystemet}', {\em Kart og Plan} {\bf 77}(5003),~108--120.
+\newline\harvardurl{http://docs.atlefren.net/ogde.pdf}
 
-\bibitem[\protect\astroncite{Giuliani et~al.}{2013}]{giuliani2013}
-Giuliani, G., Dubois, A., and Lacroix, P. (2013).
-\newblock {Testing OGC Web Feature and Coverage Service performance: Towards
-  efficient delivery of geospatial data}.
-\newblock {\em Journal of Spatial Information Science}, 2013(7):1--23.
+\harvarditem[Giuliani et~al.]{Giuliani, Dubois \harvardand\
+  Lacroix}{2013}{giuliani2013}
+Giuliani, G., Dubois, A. \harvardand\ Lacroix, P.  \harvardyearleft
+  2013\harvardyearright , `{Testing OGC Web Feature and Coverage Service
+  performance: Towards efficient delivery of geospatial data}', {\em Journal of
+  Spatial Information Science} {\bf 2013}(7),~1--23.
 
-\bibitem[\protect\astroncite{INSPIRE}{2017}]{INSPIRE}
-INSPIRE (2017).
-\newblock {About INSPIRE}.
+\harvarditem{INSPIRE}{2017}{INSPIRE}
+INSPIRE  \harvardyearleft 2017\harvardyearright , `{About INSPIRE}'.
+\newline\harvardurl{https://inspire.ec.europa.eu/about-inspire/563}
 
-\bibitem[\protect\astroncite{Kartverket}{2013}]{Kartverket2013}
-Kartverket (2013).
-\newblock {Standarder Geografisk Informasjon -Geosynkronisering Versjon 1.0}.
+\harvarditem{Kartverket}{2013}{Kartverket2013}
+Kartverket  \harvardyearleft 2013\harvardyearright , {Standarder Geografisk
+  Informasjon - Geosynkronisering Versjon 1.0}.
+\newline\harvardurl{https://www.kartverket.no/globalassets/standard/bransjestandarder-utover-sosi/geosynkronisering-standard-versjon-1.pdf}
 
-\bibitem[\protect\astroncite{Kartverket}{2015}]{Kartverket2015}
-Kartverket (2015).
-\newblock {Sentral forvaltningsl{\o}sning for primaerdata}.
+\harvarditem{Kartverket}{2015}{Kartverket2015}
+Kartverket  \harvardyearleft 2015\harvardyearright , {Sentral
+  forvaltningsl{\o}sning for primaerdata}.
+\newline\harvardurl{https://kartverket.no/globalassets/kart/geodatasamarbeid/sentral-forv-for-primardata/konseptskisse-sentralforvaltningprimardata.pdf}
 
-\bibitem[\protect\astroncite{Kartverket}{2017a}]{Kartverket2017b}
-Kartverket (2017a).
-\newblock {Informasjon og dokumentasjon om NGIS-API | Kartverket}.
+\harvarditem{Kartverket}{2017{\em a}}{Kartverket2017b}
+Kartverket  \harvardyearleft 2017{\em a}\harvardyearright , `{Informasjon og
+  dokumentasjon om NGIS-API | Kartverket}'.
+\newline\harvardurl{https://www.kartverket.no/prosjekter/Sentral-felles-kartdatabase/Oppdaterings-API/}
 
-\bibitem[\protect\astroncite{Kartverket}{2017b}]{Kartverket2017e}
-Kartverket (2017b).
-\newblock {Ofte stilte sp{\o}rsm{\aa}l}.
+\harvarditem{Kartverket}{2017{\em b}}{Kartverket2017e}
+Kartverket  \harvardyearleft 2017{\em b}\harvardyearright , `{Ofte stilte
+  sp{\o}rsm{\aa}l}'.
+\newline\harvardurl{https://kartverket.no/Prosjekter/Sentral-felles-kartdatabase/Ofte-stilte-sporsmal/}
 
-\bibitem[\protect\astroncite{Kartverket}{2017c}]{Kartverket2017a}
-Kartverket (2017c).
-\newblock {Om Geovekst-samarbeidet}.
+\harvarditem{Kartverket}{2017{\em c}}{Kartverket2017a}
+Kartverket  \harvardyearleft 2017{\em c}\harvardyearright , `{Om
+  Geovekst-samarbeidet}'.
+\newline\harvardurl{https://www.kartverket.no/geodataarbeid/Geovekst/Om-Geovekst-samarbeidet/}
 
-\bibitem[\protect\astroncite{Kartverket}{2017d}]{Kartverket2017}
-Kartverket (2017d).
-\newblock {Sentral Felles Kartdatabase - Systembeskrivelse}.
+\harvarditem{Kartverket}{2017{\em d}}{Kartverket2017}
+Kartverket  \harvardyearleft 2017{\em d}\harvardyearright , {Sentral Felles
+  Kartdatabase - Systembeskrivelse}.
+\newline\harvardurl{https://www.kartverket.no/globalassets/arkiv/kart/sentral-forvlosning-for-primardata/sentralfelleskartdatabase{\_}systembeskrivelse.pdf}
 
-\bibitem[\protect\astroncite{Louridas}{2006}]{Louridas2006}
-Louridas, P. (2006).
-\newblock {SOAP and Web Services}.
-\newblock {\em IEEE Software}, 23(6):62--67.
+\harvarditem{Louridas}{2006}{Louridas2006}
+Louridas, P.  \harvardyearleft 2006\harvardyearright , `{SOAP and Web
+  Services}', {\em IEEE Software} {\bf 23}(6),~62--67.
+\newline\harvardurl{https://search.proquest.com/docview/215842743?rfr{\_}id=info{\%}3Axri{\%}2Fsid{\%}3Aprimo}
 
-\bibitem[\protect\astroncite{Matrikkelavdelingen}{2017}]{Matrikkelavdelingen2017}
-Matrikkelavdelingen (2017).
-\newblock {Samla systemspesifikasjon Matrikkelens innhold og funksjonalitet
-  Klient Dokumentnummer: MA--nnnn}.
+\harvarditem{Matrikkelavdelingen}{2017}{Matrikkelavdelingen2017}
+Matrikkelavdelingen  \harvardyearleft 2017\harvardyearright , {Samla
+  systemspesifikasjon Matrikkelens innhold og funksjonalitet Klient
+  Dokumentnummer: MA--nnnn}.
+\newline\harvardurl{https://www.test.matrikkel.no/matrikkel/docs/SamlaSystemspesifikasjonVer.3.12.pdf}
 
-\bibitem[\protect\astroncite{Mj{\o}s}{2002}]{Mjos2002}
-Mj{\o}s, L.~B. (2002).
-\newblock {New Cadastre in Norway}.
-\newblock {\em TS7.12Regional Experience in the Cadastre – Europe II}.
+\harvarditem{Mj{\o}s}{2002}{Mjos2002}
+Mj{\o}s, L.~B.  \harvardyearleft 2002\harvardyearright , `{New Cadastre in
+  Norway}', {\em TS7.12Regional Experience in the Cadastre – Europe II} .
+\newline\harvardurl{https://www.fig.net/resources/proceedings/fig{\_}proceedings/fig{\_}2002/Ts7-12/TS7{\_}12{\_}mjos.pdf}
 
-\bibitem[\protect\astroncite{{\{}Norge digitalt{\}}}{2014}]{Norgedigitalt2014}
-{\{}Norge digitalt{\}} (2014).
-\newblock {Veileder for Web Feature Service (WFS)}.
+\harvarditem{{\{}Norge digitalt{\}}}{2014}{Norgedigitalt2014}
+{\{}Norge digitalt{\}}  \harvardyearleft 2014\harvardyearright , {Veileder for
+  Web Feature Service (WFS)}.
+\newline\harvardurl{https://www.geonorge.no/globalassets/geonorge2/veiledere/veileder-for-web-feature-service{\_}0{\_}54.pdf}
 
-\bibitem[\protect\astroncite{Norkart}{2011}]{Norkart2011}
-Norkart (2011).
-\newblock {Quadri Map Server - Utviklerh{\aa}ndbok}.
+\harvarditem{Norkart}{2011}{Norkart2011}
+Norkart  \harvardyearleft 2011\harvardyearright , {Quadri Map Server -
+  Utviklerh{\aa}ndbok}.
+\newline\harvardurl{http://sehavnivaa.no/globalassets/kart/geodatasamarbeid/sentral-forv-for-primardata/quadri-map-server---utviklerhandbok.pdf}
 
-\bibitem[\protect\astroncite{{Norkart AS}}{2010}]{NorkartAS2010}
-{Norkart AS} (2010).
-\newblock {Quadri Map Server - Overordnet beskrivelse}.
+\harvarditem{{Norkart AS}}{2010}{NorkartAS2010}
+{Norkart AS}  \harvardyearleft 2010\harvardyearright , {Quadri Map Server -
+  Overordnet beskrivelse}.
+\newline\harvardurl{https://www.kartverket.no/globalassets/kart/geodatasamarbeid/sentral-forv-for-primardata/quadri-map-server----overordnet-beskrivelse.pdf}
 
-\bibitem[\protect\astroncite{OGC}{2017}]{OGC2017}
-OGC (2017).
-\newblock {Geography Markup Language}.
+\harvarditem{OGC}{2017}{OGC2017}
+OGC  \harvardyearleft 2017\harvardyearright , `{Geography Markup Language}'.
+\newline\harvardurl{http://www.opengeospatial.org/standards/gml}
 
-\bibitem[\protect\astroncite{{OGC Network}}{2011}]{OGCNetwork}
-{OGC Network} (2011).
-\newblock {WFS-Transaction (WFS-T) tutorial}.
+\harvarditem{{OGC Network}}{2011}{OGCNetwork}
+{OGC Network}  \harvardyearleft 2011\harvardyearright , `{WFS-Transaction
+  (WFS-T) tutorial}'.
+\newline\harvardurl{http://www.ogcnetwork.net/node/1629}
 
-\bibitem[\protect\astroncite{Peng}{2005}]{Peng2005}
-Peng, Z. (2005).
-\newblock {A proposed framework for feature‐level geospatial data sharing: a
-  case study for transportation network data}.
-\newblock {\em International Journal of Geographical Information Science},
-  19(4):459--481.
+\harvarditem{Peng}{2005}{Peng2005}
+Peng, Z.  \harvardyearleft 2005\harvardyearright , `{A proposed framework for
+  feature‐level geospatial data sharing: a case study for transportation
+  network data}', {\em International Journal of Geographical Information
+  Science} {\bf 19}(4),~459--481.
+\newline\harvardurl{http://www.tandfonline.com/doi/abs/10.1080/13658810512331319127}
 
-\bibitem[\protect\astroncite{Reichardt}{2012}]{Reichardt2012}
-Reichardt, M. (2012).
-\newblock {New OGC standard supports "GeoSynchronization"}.
-\newblock {\em GeoInformatics; Emmeloord}, 15(7):1.
+\harvarditem{Reichardt}{2012}{Reichardt2012}
+Reichardt, M.  \harvardyearleft 2012\harvardyearright , `{New OGC standard
+  supports "GeoSynchronization"}', {\em GeoInformatics; Emmeloord} {\bf
+  15}(7),~1.
+\newline\harvardurl{https://search.proquest.com/docview/1115586129/citation/4047B7870DC04126PQ/1?accountid=12870}
 
-\bibitem[\protect\astroncite{Richardson and Amundsen}{2013}]{Richardson}
-Richardson, L. and Amundsen, M. (2013).
-\newblock {\em {RESTful Web APIs}}.
+\harvarditem{Richardson \harvardand\ Amundsen}{2013}{Richardson}
+Richardson, L. \harvardand\ Amundsen, M.  \harvardyearleft
+  2013\harvardyearright , {\em {RESTful Web APIs}}.
+\newline\harvardurl{https://books.google.no/books?id=ZXDGAAAAQBAJ{\&}printsec=frontcover{\&}hl=no{\&}source=gbs{\_}ge{\_}summary{\_}r{\&}cad=0{\#}v=onepage{\&}q{\&}f=false}
 
-\bibitem[\protect\astroncite{S{\ae}ther}{2016}]{Saether2016}
-S{\ae}ther, M.~H. (2016).
-\newblock {Status geosynkronisering i Trondheim kommune}.
+\harvarditem{S{\ae}ther}{2016}{Saether2016}
+S{\ae}ther, M.~H.  \harvardyearleft 2016\harvardyearright , {Status
+  geosynkronisering i Trondheim kommune}.
+\newline\harvardurl{https://www.geonorge.no/globalassets/geonorge2/plan/moter-i-plandataforum/20160519/geosynkronisering{\_}status{\_}trondheim-kommune.pdf}
 
-\bibitem[\protect\astroncite{Sandal}{2016}]{Sandal2016}
-Sandal, K. (2016).
-\newblock {Sentral lagring av FKB med ISY WinMap Kjell Sandal Norconsult
-  Informasjonssystemer AS}.
+\harvarditem{Sandal}{2016}{Sandal2016}
+Sandal, K.  \harvardyearleft 2016\harvardyearright , {Sentral lagring av FKB
+  med ISY WinMap Kjell Sandal Norconsult Informasjonssystemer AS}.
+\newline\harvardurl{https://wpstatic.idium.no/www.geoforum.no/2016/10/NGIS-Sentral-lagring-NOIS.pdf}
 
-\bibitem[\protect\astroncite{Sipes}{2004}]{Sipes2004}
-Sipes, J. (2004).
-\newblock {A Standard Approach}.
-\newblock {\em CADalyst}, 21(12):58--61.
+\harvarditem{Sipes}{2004}{Sipes2004}
+Sipes, J.  \harvardyearleft 2004\harvardyearright , `{A Standard Approach}',
+  {\em CADalyst} {\bf 21}(12),~58--61.
+\newline\harvardurl{https://search.proquest.com/docview/216094181?OpenUrlRefId=info:xri/sid:primo{\&}accountid=12870}
 
-\bibitem[\protect\astroncite{Yao and Zou}{2008}]{YaoXiaobai2008Iimo}
-Yao, X. and Zou, L. (2008).
-\newblock {Interoperable internet mapping--an open source approach.(Technical
-  report)}.
-\newblock {\em Cartography and Geographic Information Science}, 35(4).
+\harvarditem{Yao \harvardand\ Zou}{2008}{YaoXiaobai2008Iimo}
+Yao, X. \harvardand\ Zou, L.  \harvardyearleft 2008\harvardyearright ,
+  `{Interoperable internet mapping--an open source approach.(Technical
+  report)}', {\em Cartography and Geographic Information Science} {\bf 35}(4).
+
+\harvarditem[Zhao et~al.]{Zhao, Foerster \harvardand\ Yue}{2012}{Zhao2012}
+Zhao, P., Foerster, T. \harvardand\ Yue, P.  \harvardyearleft
+  2012\harvardyearright , `{The Geoprocessing Web}', {\em Computers {\&}
+  Geosciences} {\bf 47},~3--12.
+\newline\harvardurl{https://www.sciencedirect.com/science/article/pii/S0098300412001446}
 
 \end{thebibliography}

@@ -1,17 +1,24 @@
 \chapter{Directly Updating versus Local Updating}
-The benefits of the new SFKB sytem are numerous, as compared to local storage; freshly updated data for the end-users of map data, and the changes will carry through to \textit{all} end-users, as opposed to local storage, which only applies to the users of that specific municipality (blir det riktig å anta at kommunene distribuerer fra sin lokale kopi mens de har de dataene?) \citep{Dontigney2017}. Another benefit is a more efficient and effective validation process, as the requirements are defined and validated one place and every change to the central store is done by the agency where the change actually occurred \citep{Kartverket2017e}. 
+The benefits of the new SFKB sytem are numerous, as compared to local storage; freshly updated data for the end-users of map data, and the changes will carry through to \textit{all} end-users, as opposed to local storage, which only applies to the users of that specific municipality \citep{Dontigney2017}. Another benefit is a more efficient and effective validation process, as the requirements are defined and validated one place and every change to the central store is done by the agency where the change actually occurred \citep{Kartverket2017e}. 
 
-There are several(TODO: siter flere) authors that agrees on the benefits, the Canadian geosynchronisation project was according to \cite{Reichardt2012} providing the most current and reliable data, consequently avoiding unnecessary versioning and keeping the duplication of data at a minimized level. As the Norwegian geosynchronisation standard is based on the same standards as the Canadian - \cite[p.~7]{Kartverket2013}  TODO: KILDE!! Stemmer det??
+There are several authors that agrees on the benefits \citep{Reichardt2012, Zhao2012}. The Canadian geosynchronisation project was according to \cite{Reichardt2012} providing the most current and reliable data, consequently avoiding unnecessary versioning and keeping the duplication of data at a minimized level. As the Norwegian geosynchronisation standard is a further development(videreutvikling) of the Canadian this gives an indication that the Noregian geosynchronising process providing these advantages as well. TODO spørre Terje evt finne skriftlig kilde som sier dette. 
 
 
 %Centralisation of data management within different scientific fields where sharing and analysing data is major tasks have been important for (...), and entering data directly into databases     In the paper \textit{A Generic framework for synchronidistributed data management in archaeological related disiplines} \cite{LOHRER2016558} discuss the advantages and disadvantages of centralised data management within the archaeological field
 
 \subsubsection{Spatial Data Infrastuctures}
 
-According to \cite{Peng2005} sharing data on file level is causing latency in update of the data, and it is difficult to deduce a generalised standardisation for all geodata, and reaching consensus might be difficult.  Spatial data infrastructure (SDI) seek to facilitate the access and integration of geospatial data coming from various sources. To achieve this objective, systems must be interoperable. \cite{giuliani2013} 
+According to \cite{Peng2005} sharing data on file level is causing latency in update of the data, and it is difficult to deduce a generalised standardisation for all geodata, and reaching consensus might be difficult.  Spatial data infrastructures (SDI) seek to facilitate the access and integration of geospatial data coming from various sources. To achieve this objective, systems must be interoperable. \cite{giuliani2013} 
 
-With the standard for exchanging geospatial data in Norway, SOSI (Samordnet Opplegg for Stedfestet Informasjon) (...) /   
-One of the disadvantages of updating directly into a data store is that, as was stated earlier in this chapter, that it may be difficult to obtain a generalised data format and that validation thus will be difficult. As the Norwegian geospatial data have been standardised through the SOSI-standardisation for 30 years this will not be a problem (formuler annerledes). Validation problems wil mainly be because of humanly errors.    (TODO: finne kilder som argumenterer for at valideringsprossessen blir lettere, eller er dette et diskusjonskapittel? ) 
+With the standard for exchanging geospatial data in Norway, SOSI (Samordnet Opplegg for Stedfestet Informasjon) 
+
+
+One of the disadvantages of updating directly into a data store is that, as was stated earlier in this chapter, that it may be difficult to obtain a generalised data format and that validation thus will be difficult. As the Norwegian geospatial data have been standardised through the SOSI-standardisation for 30 years this will not be a problem (TODO formuler annerledes). By having a standard for exchanging geospatial data, validation problems wil mainly be because of humanly errors. This last assumptions can be further investigated in later works. 
+
+
+
+% The SOSI format, the standard for geographical data in Norway is used. As the SOSI-standard follows the INSPIRE directive by suggesting that
+%This is due to the fact that the SOSI-standard follows the INSPIRE directive, and suggests that all object have an UUID  The UUID the SOSI-standard follows the INSPIRE standard for identifying spatial objects \citep{Kartverket2012, Hokstad2016}
 
 %The SOSI format can be a quite touchy subject in the Norwegian geomatic's community. 
 
@@ -39,7 +46,6 @@ One of the disadvantages of updating directly into a data store is that, as was 
 
 %"Centralized database storage, although it sometimes limits responsiveness to individual users, offers a number of key advantages for businesses."  \cite{Dontigney2017}
 
-%"Centralized storage requires the business to invest heavily in the server technology, such as fault tolerance, but also allows it to cut overall costs. The maintenance to the central server proves less costly than maintenance to multiple computers, especially if the business operates in multiple locations. Centralized storage also reduces overall space requirements for data storage and processing.
 
 %... improved reliability and update speed: Updates carried out on a database run on centralized storage carry through to all end-users, as opposed to local storage, which only applies to that computer. " \cite{Dontigney2017}
 
@@ -57,6 +63,7 @@ One of the disadvantages of updating directly into a data store is that, as was 
 
 
 \begin{itemize}
+	\item GeoIntegrasjon
 	\item \cite{Breslow2004} WAN
 	\item coherency - garantert aldri konflikt med adre oppdateringer
 	\item consistency - dataene er up-to-date
@@ -76,23 +83,3 @@ One of the disadvantages of updating directly into a data store is that, as was 
 
 
 
-
-
-\subsection{Previous work - generic API's}
-This chapter will present papers concerning generic API's and framwork depending API's
-
-%Bruk og argumenter for/mot bruk av generiske tjenester (WMS, WFS, WPS), kontra egne spesialiserte API'er (?). Plattformuavhengige API'er (WebService, REST) vs. plattformavhengigeAPI'er.
-
-\cite{giuliani2013} wanted in their paper to benchmark and evaluate the quality of the web services WFS and WCS (Web Coverage Service). They conclude that, amongst other things, the OGC specifications (WFS, WCS) are providing interoperable access to data in an efficient and timely manner, and that the specifications are not convenient for transferring large volumes of data. 
-
-----Kan jeg rerferere til samtale?-----
-- zipped GML da gjør det ikke noe at det er store filer, smat større datamaskiner
-
-
-
-%Although the promise of SOAP (and Web services) is portability, reality often bites back with a vengeance. Even our example application requires care and experimentation to make exception handling work across different SOAP implementations. Other quirks (for instance, handling the soapAction attribute in line 51 of the WSDL) can provide hours of frustration. It’s always good to keep in mind that communicating with XML can be very inefficient. Because XML is textual and verbose, converting data to XML and back can hog application performance. On the other hand, in distributed applications over the network, factors such as network latency are likely to be just as important. Still, the fact that technology now lets us build interoperable, distributed applications doesn’t mean that all the applications we build from now on will be of that ilk. As always, a careful assessment of the specific requirements is essential, before rushed decisions
-
-%Because GML, SVG, WFS, and WMS are all international industry standards, the greatest strength of the proposed framework lies in the promised syntactic interoperability. \cite{YaoXiaobai2008Iimo}
-
-
-%Several studies [8,13,21] have shown that projects that have adopted and implemented geospatial interoperability standards saved around 25 percent of their time, compared to those who rely on proprietary standards. These reports also showed that using geospatial interoperability standards lowers the transaction costs for sharing data and information. The fact that exchange of data and information is performed on standardized interfaces enhances flexibility and adaptability of projects over time. \cite{giuliani2013}
