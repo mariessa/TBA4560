@@ -9,7 +9,7 @@ and has a client-server architecture. That is, the servers distribute the data w
 %The NGIS-API is an application programming interface for storing spatial data, and GeoSynkronisering is a standard for synchronizing spatial data across different platforms and system solutions \citep{Kartverket2017, Kartverket2013}.
 The structure of the QMS system
 %with the NGIS-API
-is depicted in Figure \ref{fig:qmsfig}. The \textit{archives} (data stores) are used for storing the FKB-data, the \textit{portals} define the clients and authorize users for different tasks, where a task is defined as access to an archive. The data stored in, and uploaded into, QMS is defined by the \textit{object catalogue}, and the service of translating logical, humanly meaningful, names of the distributing servers is the \textit{name server}. The \textit{NGIS-API} is the application programming interface for storing spatial data into QMS. All the feature instances in the archives are given unique identifiers. The attributes of the identifiers are LocalId, VersionId and Namespace. Namespace is identifying the data source of the instance, the VersionId identifies the version of the object and the LocalId, based on a Universally unique identifier (UUID), ensures that each feature instance is unique\footnote{The probability to get the same number is small because there are som many possibilities. E.g., the number of random version 4 UUIDs which need to be generated in order to have a 50\% probability of at least one collision, is 2.71 quintillion. This is computed as follows: $ n \approx \frac{1}{2} + \sqrt{\frac{1}{4}+2 \times \ln{2} \times  2^{122}} \approx 2.71 \times 10^{18} $ \citep{Eggan2017}}. 
+is depicted in Figure \ref{fig:qmsfig}. The \textit{archives} (data stores) are used for storing the FKB-data, the \textit{portals} define the clients and authorize users for different \textit{tasks}, where a task is defined as access to an archive. The data stored in, and uploaded into, QMS is defined by the \textit{object catalogue}, and the service of translating logical, humanly meaningful names of the distributing servers is the \textit{name server}. The \textit{NGIS-API} is the application programming interface for storing spatial data into QMS. All the feature instances in the archives are given unique \textit{identifiers}. The attributes of the identifiers are \textit{LocalId}, \textit{VersionId} and \textit{Namespace}. Namespace is identifying the data source of the instance, the VersionId identifies the version of the object and the LocalId, based on a Universally unique identifier (\textit{UUID}), ensures that each feature instance is unique\footnote{The probability to get the same number is small because there are som many possibilities. E.g., the number of random version 4 UUIDs which need to be generated in order to have a 50\% probability of at least one collision, is 2.71 quintillion. This is computed as follows: $ n \approx \frac{1}{2} + \sqrt{\frac{1}{4}+2 \times \ln{2} \times  2^{122}} \approx 2.71 \times 10^{18} $ \citep{Eggan2017}}. 
  
 .
 
@@ -22,7 +22,7 @@ is depicted in Figure \ref{fig:qmsfig}. The \textit{archives} (data stores) are 
 
 \subsection{NGIS-API}\label{qms-api}
 
-When editing an existing object, say a building or the land use of an area, in QMS, the object gets locked in the archive, and the user edits the object locally. When the updating is done, the user has to send the object back to its archive, along with objects that have been edited, added or deleted. When objects are locked in the archives, other users cannot edit them, but they may look at them. This process is called \textit{long transactions} \citep{Kartverket2017b}.
+When editing an existing object, say a building or the land use of an area, in QMS, the object gets locked in the archive, and the user edits the object locally. When the updating is done, the user has to send the object back to its archive, along with objects that have been edited, added or deleted. When objects are locked in the archives other users cannot edit them, but they may look at them. This process is called \textit{long transactions} \citep{Kartverket2017b}.
 
 
 
@@ -43,7 +43,7 @@ When editing an existing object, say a building or the land use of an area, in Q
 
 \subsection{\textit{GeoSynkronisering} - the Geosynchronisation Standard}\label{geosync}
 
-Geosynchronising (\textit{GeoSynkronisering}) is a Norwegian standard for synchronising geospatial information across computer systems, and is a provider-subscriber system as illustrated in figure \ref{fig:geosync}. The \textit{provider} updates the database with new data, while the \textit{subscribers} are allowed to update their databases with the changes done by the provider. The SFKB works as a provider: if data is changed or added in QMS, the features will automaticly be geosynchronised to all subscribers. Common subscribers in the SFKB-system are the municipalities and GeoNorge. GeoNorge is the web page where public agencies and institutions, as well as private actors, can get map data and other geospatial information for Norway.  
+Geosynchronising (\textit{GeoSynkronisering}) is a Norwegian standard for synchronising geospatial information across computer systems, and is a \textit{provider-subscriber} system as illustrated in figure \ref{fig:geosync}. The \textit{provider} updates the database with new data, while the \textit{subscribers} are allowed to update their databases with the changes done by the provider. The SFKB works as a provider: if data is changed or added in QMS, the features will automaticly be geosynchronised to all subscribers. Common subscribers in the SFKB-system are the municipalities and \textit{GeoNorge}. GeoNorge is the web page where public agencies and institutions, as well as private actors, can get map data and other geospatial information for Norway.  
 \\
 \begin{figure}[H]
 	\centering
@@ -53,20 +53,22 @@ Geosynchronising (\textit{GeoSynkronisering}) is a Norwegian standard for synchr
 \end{figure}
 
 
-The project of making a standard interface for geosynchronisation services in Norway was started in 2012,used in production systems in 2017 and was a collaboration between Kartverket, the Norwegian Institute of Bioeconomy Research (NIBIO) and system providers in Norway. Geosynkronisering is a open and freely available project on GitHub, and this Norwegian standard is based on the concepts and methods from international standards, i.e. ISO 19100 Geographic Information/Geomatics and Open Geospatial Consortium (OGC) \citep{Eggan2017,Kartverket2013}.
+The project of making a standard interface for geosynchronisation services in Norway was started in 2012, and is a collaboration between Kartverket, the Norwegian Institute of Bioeconomy Research (NIBIO) and system providers in Norway. Geosynkronisering is a open and freely available project on GitHub, and this Norwegian standard is based on the concepts and methods from international standards, i.e. ISO 19100 Geographic Information/Geomatics and Open Geospatial Consortium (\textit{OGC}) \citep{Eggan2017,Kartverket2013}. In 2017 it started to be used in production systems. 
 
-The geosynchornisation standard is model driven, using models as key artefacts in the development.
+The geosynchornisation standard is model driven, using models as key artefacts in the development, on a conseptual level \textit{UML} (Unified Modeling Language) is used to describe the data.
 %describing the data of an application or domain
-UML is used on the conceptual level to describe the data, and the data format with GML, using XSD as an application schema showing the meta data. An example of a UML is given below.
+ An example of a UML model is given on the next page in figure \ref{fig:uml}.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.35]{img/uml.png}
+	\includegraphics[scale=0.5]{img/uml.png}
 	\caption{Figure from \cite{Kartverket2012a} showing an UML model of the services of the geosynchronisation.}
 	\label{fig:uml}
 \end{figure}
 
-The data transfer with geosynchronising (figure \ref{fig:geosyncprocess}) is a set of transactions of changed features on the GML-format, and their respective changelogs are specified by the WFS-T.  GML (Geography Markup Language) is an open interchange format for geospatial transactions and a modelling language for geospatial systems \citep{OGC2017}. WFS-T (Transactional Web Feature Service) allows creation, deletion, and updating of geospatial features on the web \citep{OGCNetwork}. This will be further described in chapter \ref{wfs}. 
+TODO: XSD as an application schema showing the meta data.
+
+The data transfer with geosynchronising (figure \ref{fig:geosyncprocess}) is a set of transactions of changed features on the \textit{GML}-format, and their respective changelogs are specified by the \textit{WFS-T}. GML (Geography Markup Language) is an open interchange format for geospatial transactions and a modelling language for geospatial systems \citep{OGC2017}. WFS-T (Transactional Web Feature Service) allows creation, deletion, and updating of geospatial features on the web \citep{OGCNetwork}. This will be further described in chapter \ref{wfs}. 
 
 \begin{figure}[H]
 	\centering
@@ -84,13 +86,13 @@ Geosynchronising is a service that permits databases with geospatial content to 
 %As was stated in chapter ref 
 There are several services provided by the cadastre; the \textit{cadastral server} serves all clients, both editing and viewing (figure \ref{fig:matr}). The logic of the cadastre server includes management and assembling of cadastre information, as well as control and validation of the business rules of it. The only way to get access to the data on the \textit{cadastre database} is through the \textit{MatrikkelAPI} (chapter \ref{matrikkelapi}) that is on the cadastral central server \citep[p.~338]{Matrikkelavdelingen2017}. Submissions and modifications on the cadastral data are done to the centralised data store directly, as for the new SFKB system. When wanting to keep a local cadastre copy, the Matrikkel system provides a \textit{Changelog API} for synchronizing changes on the central data store (See figure \ref{fig:matr}). 
 
-The physical architecture of the central cadastral server is clustered, meaning there are several physical servers, but for the clients they will appear as one. %(High-Availability Cluster? \citep{IWebTechnologies2015})
+The physical architecture of the central cadastral server is \textit{clustered}, meaning there are several physical servers, but for the clients they will appear as one. %(High-Availability Cluster? \citep{IWebTechnologies2015})
 
 
 \subsection{The MatrikkelAPIs} \label{matrikkelapi}
-The MatrikkelAPIs is application programming interfaces for extracting data from the cadastre, in both small and large scale.  
+The MatrikkelAPIs are application programming interfaces for extracting data from the cadastre, in both small and large scale.  
 
-There are three MatrikkelAPIs. The first one is for the clients with access to updating the cadastre data - the \textit{Editing API}. The second one, the \textit{Viewer API}, includes services for inspecting and reading the data and last the \textit{Changelog API}, as stated earlier, provides services for fetching data changes - primarily for the local copies at the municipalities, but also for external registers.  The Viewing API support other services as well: web services as WMS that deliver georeferenced raster maps
+There are three MatrikkelAPIs. The first one is for the clients with access to updating the cadastre data - the \textit{Editing API}. The second one, the \textit{Viewer API}, includes services for inspecting and reading the data, and last the \textit{Changelog API}, as stated earlier, provides services for fetching data changes - primarily for the local copies at the municipalities, but also for \textit{external registers}.  The Viewing API support other services as well: web services as WMS that deliver georeferenced raster maps
 %with addresses as points and buildings and areas for land parcels 
 as well as WFS delivering vectorised map	and properties for addresses, buildings and land parcels. 
 
@@ -106,35 +108,35 @@ There are several types of clients to the cadastre system: the \textit{updating}
 \end{figure}
 
 \section{Other Generic Services}
-There are several web services, ways to access web-based geospatial data. These technologies have been created to facilitate the exchange of geospatial information, to find new ways to communicate geodata and to redefine the work flow of the geospatial analysis. In the following subchapters some of these are presented.  
+There are several \textit{web services}, ways to access web-based geospatial data. These technologies have been created to facilitate the exchange of geospatial information, to find new ways to communicate geodata and to redefine the work flow of the geospatial analysis. In the following subchapters some of these are presented.  
 
-\subsection{Standard Spesifications from the Open Geospatial Consortium)}\label{OGC}
-To get a higher interoperability in the Geographical Information System (GIS) community, the Open Geospatial Consortium (OGC) has created standard specifications for data sharing, processing, retrieval, visualisation, content and cataloguing \citep{giuliani2013}.
+\subsection{Standard Spesifications from the Open Geospatial Consortium}\label{OGC}
+To get a higher interoperability in the Geographical Information System (\textit{GIS}) community, the Open Geospatial Consortium (OGC) has created standard specifications for data sharing, processing, retrieval, visualisation, content and cataloguing \citep{giuliani2013}.
 
 \subsubsection{The Web Feature Service (WFS)}\label{wfs}
 
-The Web Feature Service (WFS) is a standard geodata extracting service for describing data manipulation on a feature level \citep{Peng2005, Norgedigitalt2014}. The specification defines interfaces required to support transactions and query operations on geospatial features over the internet.
+The Web Feature Service (\textit{WFS}) is a standard geodata extracting service for describing data manipulation on a feature level \citep{Peng2005, Norgedigitalt2014}. The specification defines interfaces required to support transactions and query operations on geospatial features over the internet.
 
 The GML-format is the defacto standard transferring format, but WFS supports other formats as well \citep{Eggan2017}. By using GML for the exhange of geospatial data,  interoperability between the heterogeneous system is provided \citep{YaoXiaobai2008Iimo}.
 
 Whereas WFS allows querying and retrieval of features, transactional Web Feature Service (WFS-T) permits the user to create, delete and update features \citep{OGCNetwork},
 
 \subsubsection{The Web Mapping Service (WMS)}
-The Web Mapping Service (WMS) is another standad from OGS for exchanging geograpichal information over the web. When using the Web Mapping Service(WMS), the user is given an image of a map that cannot be edited or spatially analysed. 	
+The Web Mapping Service (\textit{WMS}) is another standad from OGS for exchanging geograpichal information over the web. When using the Web Mapping Service, the user is given an image of a map that cannot be edited or spatially analysed. 	
 
 
 \subsection{Simple Object Access Protocol (SOAP)}
-Simple Object Access Protocol (SOAP) is a protocol that defines how XML and HTTP are used to get access to objects, services and servers from a web based service, thus aiding in interoperability. SOAP defines an envelope for Web Service messages, where the envelope consists of a header with meta data (e.g. how the recipient of the SOAP message should interpret the message) and the body with the actual message. SOAP is often referred to as Web Service, as it is the original web service \citep{Kartverket2013}, and may serve as a standard for all systems because it is platform independent \citep{Sipes2004}. 
+Simple Object Access Protocol (\textit{SOAP}) is a protocol that defines how XML and HTTP are used to get access to objects, services and servers from a web based service, thus aiding in interoperability. SOAP defines an envelope for Web Service messages, where the envelope consists of a header with meta data (e.g. how the recipient of the SOAP message should interpret the message) and the body with the actual message. SOAP is often referred to as Web Service, as it is the original web service \citep{Kartverket2013}, and may serve as a standard for all systems because it is platform independent \citep{Sipes2004}. 
 
 The Cadastre Viewing and Changelog APIs and the geosynchonisation are examples of SOAP web services. 
 %Tjenestegrensesnitt med mekanismer for å hente ut objekter fra en web-basert tjeneste. Ofte omtalt som Web Service (den opprinnelige web servicen). 
 
 
 \subsection{Representational State Transfer (REST)}
-There are many definitions of Representational State Transfer (REST) \citep{Fielding, Richardson}, this paper uses the description by \cite{Fieldinga}: \textit{REST is a coordinated set of architectural constraints that attempts to minimize latency and network communication while at the same time maximizing the independence and scalability of component implementations}. 
+There are many definitions of Representational State Transfer (\textit{REST}) \citep{Fielding, Richardson}, this paper uses the description by \cite{Fieldinga}: \textit{REST is a coordinated set of architectural constraints that attempts to minimize latency and network communication while at the same time maximizing the independence and scalability of component implementations}. 
 %\cite{Battle2008}: \textit{REST is a pattern of resource operations that has emerged as a de facto standard for service design in Web 2.0 applications.} 
 
-REST is commonly based on the HTTP and HTML standards, and provide simplified calls to services through HTTP. It is only data structures and the transferring of their state that is dealt with in a RESTful service \citep{Battle2008}. The state transferring calls are POST, GET, PUT and DELETE, which receptively creates, reads, updates and deletes resources in the RESTful service. A resource is identified and resolved with a URL.
+REST is commonly based on the HTTP and HTML standards, and provide simplified calls to services through HTTP. It is only data structures and the transferring of their state that is dealt with in a RESTful service \citep{Battle2008}. The state transferring calls are POST, GET, PUT and DELETE, which receptively creates, reads, updates and deletes resources in the RESTful service. A resource is identified and resolved with an URL.
 
 \begin{figure}[H]
 	\centering
@@ -178,9 +180,9 @@ An overview of the different services and APIs discussed in this chapter is pres
 
 %Bruk og argumenter for/mot bruk av generiske tjenester (WMS, WFS, WPS), kontra egne spesialiserte API'er (?). Plattformuavhengige API'er (WebService, REST) vs. plattformavhengigeAPI'er.
 
-In their paper \cite{giuliani2013} wanted to benchmark and evaluate the quality of the web services WFS and WCS (Web Coverage Service). They conclude, amongst other things, that the OGC specifications (WFS, WCS) are providing interoperable access to data in an efficient and timely manner, but the specifications are not convenient for transferring large volumes of data.  The experience from the Norwegian geosynchronisation projects shows the opposite. By zipping the transaction files (WFS-T with GML), the volume is decreased, resulting in a minor latency for synchronising of the data. An example is provided: a large initial dataset with 220'000 features from the Planning dataset was synchronised from the provider to the Geosynchronising subscriber in only 2.5 minutes. The objects were sent as a initial dataset, meaning they were preprocessed  (see figure \ref{fig:geosyncprocess}), but it still proves that the WFS standard can transfer voluminous data in a fairly short time (ref. conversation with Lars Eggan, Norconsult Informasjonssystemer).
+In their paper, \cite{giuliani2013} wanted to benchmark and evaluate the quality of the web services WFS and \textit{WCS} (Web Coverage Service). They conclude, amongst other things, that the OGC specifications (WFS, WCS) are providing interoperable access to data in an efficient and timely manner, but the specifications are not convenient for transferring large volumes of data.  The experience from the Norwegian geosynchronisation project shows the opposite. By zipping the transaction files (WFS-T with GML), the volume is decreased, resulting in a minor latency for synchronising of the data. An example is provided: a large initial dataset with 220'000 features from the Planning dataset was synchronised from the provider to the Geosynchronising subscriber in only 2.5 minutes. The objects were sent as a initial dataset, meaning they were preprocessed  (see figure \ref{fig:geosyncprocess}), but it still proves that the WFS standard can transfer voluminous data in a fairly short time (ref. conversation with Lars Eggan, Norconsult Informasjonssystemer).
 
-The comparison between a project using a high degree of geospatial standards was compared to another project using few, by \cite{AllenHamilton2005},shows that platform independent projects %implementing geospatial interoperability standards 
+The comparison between a project using a high degree of geospatial standards was compared to another project using few, by \cite{AllenHamilton2005}. This comparison shows that platform independent projects %implementing geospatial interoperability standards 
 have a lower cost of operations and maintenance of data exchange, than proprietary platform dependent projects. \cite{giuliani2013} states that over time, exchange of data and information performed on standardised interfaces strengthens the flexibility and adaptability of projects.
 
 

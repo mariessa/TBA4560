@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.20)  19 DEC 2017 18:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.20)  19 DEC 2017 23:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1566,58 +1566,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--53
  []
 
 [8 <./img/ngiss.png>]
-<img/uml.png, id=272, 843.15pt x 723.70375pt>
+<img/uml.png, id=273, 843.15pt x 723.70375pt>
 File: img/uml.png Graphic file (type png)
 <use img/uml.png>
 Package pdftex.def Info: img/uml.png  used on input line 64. on input line 64.
-Package pdftex.def Info: Requested size: 295.10692pt x 253.30011pt on input lin
+Package pdftex.def Info: Requested size: 421.57396pt x 361.85098pt on input lin
 e 64.
  [9 <./img/geosync.png>]
-<img/geosynkkk.png, id=290, 1064.97874pt x 84.315pt>
+<img/geosynkkk.png, id=292, 1064.97874pt x 84.315pt>
 File: img/geosynkkk.png Graphic file (type png)
 <use img/geosynkkk.png>
-Package pdftex.def Info: img/geosynkkk.png  used on input line 73. on input lin
-e 73.
+Package pdftex.def Info: img/geosynkkk.png  used on input line 75. on input lin
+e 75.
 Package pdftex.def Info: Requested size: 457.93193pt x 36.25473pt on input line
- 73.
- [10 <./img/uml.png (PNG copy)> <./img/geosynkkk.png>]
-<img/matrikkelSYS.png, id=321, 683.55376pt x 492.84125pt>
+ 75.
+ [10 <./img/uml.png (PNG copy)> <./img/geosynkkk.png>] [11]
+<img/matrikkelSYS.png, id=328, 683.55376pt x 492.84125pt>
 File: img/matrikkelSYS.png Graphic file (type png)
 <use img/matrikkelSYS.png>
-Package pdftex.def Info: img/matrikkelSYS.png  used on input line 103. on input
- line 103.
+Package pdftex.def Info: img/matrikkelSYS.png  used on input line 105. on input
+ line 105.
 Package pdftex.def Info: Requested size: 341.77605pt x 246.42001pt on input lin
-e 103.
- [11]
+e 105.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 114.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 116.
  [12 <./img/matrikkelSYS.png>]
-Overfull \hbox (10.41551pt too wide) in paragraph at lines 134--136
+Overfull \hbox (10.53552pt too wide) in paragraph at lines 136--138
 \T1/futs/m/n/12 There are many def-i-ni-tions of Rep-re-sen-ta-tional State Tra
-ns-fer (REST) ([][]Field-ing et al.[][] [][]2017[][], [][]Richard-
+ns-fer (\T1/futs/m/it/12 REST\T1/futs/m/n/12 ) ([][]Field-ing et al.[][] [][]20
+17[][], [][]Richard-
  []
 
 [13]
 <img/REST.png, id=375, 663.47874pt x 201.75375pt>
 File: img/REST.png Graphic file (type png)
 <use img/REST.png>
-Package pdftex.def Info: img/REST.png  used on input line 141. on input line 14
-1.
+Package pdftex.def Info: img/REST.png  used on input line 143. on input line 14
+3.
 Package pdftex.def Info: Requested size: 331.73856pt x 100.87662pt on input lin
-e 141.
+e 143.
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 159.
+(Font)              scaled to size 9.19998pt on input line 161.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 159.
+(Font)              scaled to size 6.99199pt on input line 161.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 159.
+(Font)              scaled to size 9.19998pt on input line 161.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 159.
+(Font)              scaled to size 6.99199pt on input line 161.
 [14 <./img/REST.png>] [15]) [16]
 \openout2 = `centraliseddb.aux'.
 
@@ -1684,12 +1684,6 @@ File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 
 
 ]
-Overfull \hbox (20.41144pt too wide) in paragraph at lines 22--23
-\T1/futs/m/n/12 spe-sialis-erte API'er (?). Plat-tfor-muavhengige API'er (Web-S
-er-vice, REST) vs. Plat-tfor-mavhengige
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
@@ -1774,17 +1768,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D2BAF4FF056E71CB6A0975D4E2BEAF4A;1811.
+(rerunfilecheck)             Checksum: 4C8453B59A18769206A394324CDB5F15;1809.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
  ) 
 Here is how much of TeX's memory you used:
  20196 strings out of 492990
  363153 string characters out of 6132621
- 430919 words of memory out of 5000000
+ 430918 words of memory out of 5000000
  23136 multiletter control sequences out of 15000+600000
  134152 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,16n,92p,1375b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,16n,92p,1428b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/tex
@@ -1795,10 +1789,10 @@ f-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/adobe/utopia/putri8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
 ublic/cm-super/sftt0800.pfb>
-Output written on thesis.pdf (31 pages, 351378 bytes).
+Output written on thesis.pdf (31 pages, 352194 bytes).
 PDF statistics:
- 556 PDF objects out of 1000 (max. 8388607)
- 479 compressed objects within 5 object streams
+ 557 PDF objects out of 1000 (max. 8388607)
+ 480 compressed objects within 5 object streams
  110 named destinations out of 1000 (max. 500000)
  245 words of extra memory for PDF output out of 10000 (max. 10000000)
 
