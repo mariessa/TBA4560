@@ -2,17 +2,17 @@
 
 \chapter{Platform Independent Services}
 
-This chapter will present papers (TODO er dette tilfellet?) concerning generic API's and framwork depending API's. A generic API (or service) is a platform independent service, a software able to run on any hard- or software platform.
+This chapter will discuss some advantages and disadvantages of generic APIs and framework depending APIs. A generic API (or service) is a platform independent service, a software able to run on any hardware or software platform.
 
 Geosynchronising is a service that permits databases with geospatial content to synchronize across different platforms and system solutions \citep{Kartverket2013}, as opposed to the NGIS-API that is a platform dependent API due to its criterion of using c++ programming language and that the developer using it needs to provide the compiler Microsoft Visual Studio \citep{Kartverket2017b, Norkart2011}.
 
-From figure \ref{fig:matr} can we observe that the Cadastre Editing API is Java dependent, but with the aid of a Java/-NET Bridging Service it can be used with .NET. as well. In 2018 this API will be available as a SOAP service, and thus platform independent. 
+From figure \ref{fig:matr} we can observe that the Cadastre Editing API is Java dependent, but with the aid of a Java/-NET Bridging Service it can be used with .NET as well. In 2018 this API will be available as a SOAP service, and thus platform independent. 
 
-An overview of the different services and APIs discussed in the previous chapter is presented in table \ref{services} below.
+An overview of the different services and APIs discussed in the previous chapter is presented in table \ref{services} on the next page, giving an indication whether they are platform independent or not.
 
 \begin{table}[H]
 	\centering
-	\caption{An overview of the services presented in this chapter. Showing which ones that are platform independent and not. TODO: er det riktig det som står om editing API?}
+	\caption{An overview of the services presented in chapter \ref{chap:tech}. Showing which ones that are platform independent and not.}
 	\label{services}
 	\begin{tabular}{|l|l|l|}
 		\hline
@@ -38,15 +38,15 @@ An overview of the different services and APIs discussed in the previous chapter
 
 %Bruk og argumenter for/mot bruk av generiske tjenester (WMS, WFS, WPS), kontra egne spesialiserte API'er (?). Plattformuavhengige API'er (WebService, REST) vs. plattformavhengigeAPI'er.
 
-\cite{giuliani2013} wanted in their paper to benchmark and evaluate the quality of the web services WFS and WCS (Web Coverage Service). They conclude that, amongst other things, the OGC specifications (WFS, WCS) are providing interoperable access to data in an efficient and timely manner, but the specifications are not convenient for transferring large volumes of data.  The experience from the Norwegian geosynchronisation projects shows the opposite. By zipping the transaction files (WFS-T with GML), the volume is decreased, resulting in a minor latency for synchronising of the data. An example is provided: a large initial dataset with 220'000 features from the Planning dataset was synchronised from the provider to the Geosynchronising subscriber in only 2.5 minutes. The objects were sent as a initial dataset meaning they were preprocessed  (see figure \ref{fig:geosyncprocess}), but it still proves that the WFS standard can transfer voluminous/big data. (TODO Kan jeg rerferere til samtale?-----)
+In their paper \cite{giuliani2013} wanted to benchmark and evaluate the quality of the web services WFS and WCS (Web Coverage Service). They conclude, amongst other things, that the OGC specifications (WFS, WCS) are providing interoperable access to data in an efficient and timely manner, but the specifications are not convenient for transferring large volumes of data.  The experience from the Norwegian geosynchronisation projects shows the opposite. By zipping the transaction files (WFS-T with GML), the volume is decreased, resulting in a minor latency for synchronising of the data. An example is provided: a large initial dataset with 220'000 features from the Planning dataset was synchronised from the provider to the Geosynchronising subscriber in only 2.5 minutes. The objects were sent as a initial dataset, meaning they were preprocessed  (see figure \ref{fig:geosyncprocess}), but it still proves that the WFS standard can transfer voluminous data in a fairly short time (ref. conversation with Lars Eggan, Norconsult Informasjonssystemer).
 
 \cite{giuliani2013}
 
 
 
 \begin{itemize}
-	\item TODO \cite{Zhao2012}
-	\item Several studies [8,13,21] \cite{giuliani2013}
+	\item TODO Finn for del med platform avhengig
+	\item Several studies [8,13,21] \cite{giuliani2013} \cite{Zhao2012}
 \end{itemize}
 
 

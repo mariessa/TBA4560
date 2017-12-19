@@ -8,20 +8,26 @@ A level-1 auxiliary file: summary.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: systems.aux
 A level-1 auxiliary file: techniques.aux
-A level-1 auxiliary file: platform.aux
 A level-1 auxiliary file: centraliseddb.aux
 A level-1 auxiliary file: conclusion.aux
 A level-1 auxiliary file: acronyms.aux
+A level-1 auxiliary file: oppgavetekst.aux
 Database file #1: bibtex/library.bib
-Repeated entry---line 218 of file bibtex/library.bib
+Repeated entry---line 453 of file bibtex/library.bib
+ : @article{Hokstad2016
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 672 of file bibtex/library.bib
  : @unpublished{Eggan2017
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 281 of file bibtex/library.bib
+Repeated entry---line 742 of file bibtex/library.bib
  : @unpublished{Kartverket2013
  :                            ,
 I'm skipping whatever remains of this entry
 Warning--empty note in Eggan2017
+Warning--there's a number but no volume in Hokstad2016
+Warning--empty note in Kartverket2012
 Warning--empty note in Kartverket2013
 Warning--empty note in Kartverket2015
 Warning--empty note in Kartverket2017
@@ -32,45 +38,45 @@ Warning--empty note in NorkartAS2010
 Warning--empty publisher in Richardson
 Warning--empty note in Saether2016
 Warning--empty note in Sandal2016
-You've used 32 entries,
+You've used 37 entries,
             2909 wiz_defined-function locations,
-            855 strings with 11777 characters,
-and the built_in function-call counts, 91445 in all, are:
-= -- 14631
-> -- 1151
+            885 strings with 12811 characters,
+and the built_in function-call counts, 102571 in all, are:
+= -- 16373
+> -- 1271
 < -- 0
-+ -- 6740
-- -- 343
-* -- 7562
-:= -- 19226
-add.period$ -- 32
-call.type$ -- 32
-change.case$ -- 447
-chr.to.int$ -- 29
-cite$ -- 43
-duplicate$ -- 392
-empty$ -- 808
-format.name$ -- 431
-if$ -- 16172
-int.to.chr$ -- 8
++ -- 7506
+- -- 378
+* -- 8451
+:= -- 21636
+add.period$ -- 37
+call.type$ -- 37
+change.case$ -- 517
+chr.to.int$ -- 33
+cite$ -- 50
+duplicate$ -- 459
+empty$ -- 944
+format.name$ -- 476
+if$ -- 18124
+int.to.chr$ -- 9
 int.to.str$ -- 0
-missing$ -- 14
-newline$ -- 129
-num.names$ -- 324
-pop$ -- 159
+missing$ -- 17
+newline$ -- 150
+num.names$ -- 374
+pop$ -- 182
 preamble$ -- 1
-purify$ -- 480
+purify$ -- 555
 quote$ -- 0
-skip$ -- 345
+skip$ -- 398
 stack$ -- 0
-substring$ -- 20228
-swap$ -- 45
-text.length$ -- 448
+substring$ -- 22601
+swap$ -- 55
+text.length$ -- 518
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 126
-warning$ -- 11
-while$ -- 685
+type$ -- 146
+warning$ -- 13
+while$ -- 793
 width$ -- 0
-write$ -- 403
-(There were 2 error messages)
+write$ -- 467
+(There were 3 error messages)

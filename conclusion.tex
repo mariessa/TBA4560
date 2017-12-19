@@ -1,14 +1,5 @@
 \chapter{Conclusion}
 
-\begin{itemize}
-	\item Matrikkelen har fungert fint til nå
-	\item oppsummere noe fra litterature review
-	\item version-control issues as well as inefficient collaboration for storing local copies
-	\item keeping service databases up-to-date in a multi-provider situation. %https://www.maanmittauslaitos.fi/sites/maanmittauslaitos.fi/files/attachments/2017/09/geoprocessing_2015_1_20_30079.pdf
-	
-\end{itemize}
-
-
 %Fordel:
 %---
 
@@ -30,4 +21,6 @@
 %Further investigated 
 %Future work : This includes tracking latencies, bottlenecks, and errors that may negatively influence its overall quality. \cite{giuliani2013}
 
-The process of storing map data locally and later send those data to \textit{Kartverket} was perhaps unnecessarily time-consuming and inefficient. As this paper has presented there are a few drawbacks of updating directly to a central data store. On the other hand, the benefits seem to be greater and thus the SFKB-system seems to have a bright future ahead; the \textit{SFKB}-system will reduce operational cost by lessening the import, export, copying and control costs of the data, as \cite{Kartverket2017e} sums it up.  This is in addition to improving service delivery for the public, providing it with fundamental and reliable map data freshly updated at all times. 
+
+The process of storing map data locally and later send those data to \textit{Kartverket} was perhaps unnecessarily time-consuming and inefficient. But, as this paper has presented there are a few drawbacks of updating directly to a central data store as well. The time it takes to transfer a change to a central system may have latencies. Solutions of this issue for the SFKB system are zipping of files for downscaling the load, and short transactions providing short sessions, thus preventing latency.
+On the other hand, the benefits seem to be greater than the disadvantage - the SFKB-system seems to have a bright future ahead. It will reduce operational cost by lessening the import, export, copying and control costs of the data, as \cite{Kartverket2017e} sums it up.  This is in addition to improving service delivery for the public, providing it with fundamental and reliable map data, freshly updated at all times. 

@@ -1,26 +1,27 @@
 \contentsline {section}{Preface}{i}{figure.caption.1}
-\contentsline {section}{Summary and Conclusions}{ii}{section*.2}
+\contentsline {section}{Abstract}{ii}{section*.2}
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
 \contentsline {chapter}{\numberline {2}The Main Geospatial Data Systems in Norway}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}\textit {Sentral Felles Kartdatabase} - The Central Map Data Store}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}\textit {Matrikkelen} The Norwegian Cadastre}{5}{section.2.2}
+\contentsline {section}{\numberline {2.2}\textit {Matrikkelen} - The Norwegian Cadastre}{5}{section.2.2}
 \contentsline {section}{\numberline {2.3}Data Flow of the Two Systems}{5}{section.2.3}
 \contentsline {chapter}{\numberline {3}Techniques for Updating and Synchronising Geodata}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}Quadri Map Server (QMS) and Its Synchronising Services}{7}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}NGIS-API}{8}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}\textit {GeoSynkronisering} - the Geosynchronisation Standard}{8}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}The Central Cadastral Server and its APIs}{10}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}The MatrikkelAPIs}{10}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Other Generic Services}{11}{section.3.3}
+\contentsline {section}{\numberline {3.2}The Central Cadastral Server and its APIs}{11}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}The MatrikkelAPIs}{11}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Other Generic Services}{12}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Standard Spesifications from the Open Geospatial Consortium)}{12}{subsection.3.3.1}
-\contentsline {subsubsection}{The Web Feature Service (WFS)}{12}{section*.12}
-\contentsline {subsubsection}{The Web Mapping Service (WMS)}{12}{section*.13}
-\contentsline {subsection}{\numberline {3.3.2}Simple Object Access Protocol (SOAP)}{12}{subsection.3.3.2}
+\contentsline {subsubsection}{The Web Feature Service (WFS)}{12}{section*.11}
+\contentsline {subsubsection}{The Web Mapping Service (WMS)}{13}{section*.12}
+\contentsline {subsection}{\numberline {3.3.2}Simple Object Access Protocol (SOAP)}{13}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Representational State Transfer (REST)}{13}{subsection.3.3.3}
-\contentsline {chapter}{\numberline {4}Platform Independent Services}{14}{chapter.4}
-\contentsline {subsection}{\numberline {4.0.1}Previous work - generic API's}{15}{subsection.4.0.1}
-\contentsline {chapter}{\numberline {5}Directly Updating versus Local Updating}{17}{chapter.5}
-\contentsline {subsubsection}{Spatial Data Infrastuctures}{17}{section*.16}
-\contentsline {chapter}{\numberline {6}Conclusion}{19}{chapter.6}
+\contentsline {section}{\numberline {3.4}Platform Independent Services}{14}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Previous Work - Generic and Proprietary APIs}{15}{subsection.3.4.1}
+\contentsline {chapter}{\numberline {4}Discussion on Centralised versus Distributed Updates }{17}{chapter.4}
+\contentsline {subsubsection}{Spatial Data Infrastuctures}{18}{section*.15}
+\contentsline {chapter}{\numberline {5}Conclusion}{19}{chapter.5}
 \contentsline {chapter}{\numberline {A}Glossary}{20}{appendix.A}
-\contentsline {chapter}{Bibliography}{22}{appendix.A}
+\contentsline {chapter}{\numberline {B}Oppgaveteksten}{22}{appendix.B}
+\contentsline {chapter}{Bibliography}{24}{appendix.B}

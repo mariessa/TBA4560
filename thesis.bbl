@@ -1,5 +1,11 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{{Allen Hamilton}}{2005}{AllenHamilton2005}
+{Allen Hamilton}, B.  \harvardyearleft 2005\harvardyearright , `{Geospatial
+  Interoperability Return on Investment Study}', {\em National Aeronautics and
+  Space Administration Geospatial Interoperability Office} .
+\newline\harvardurl{http://lasp.colorado.edu/media/projects/egy/files/ROI{\_}Study.pdf}
+
 \harvarditem{Battle \harvardand\ Benson}{2008}{Battle2008}
 Battle, R. \harvardand\ Benson, E.  \harvardyearleft 2008\harvardyearright ,
   `{Bridging the semantic Web and Web 2.0 with Representational State Transfer
@@ -46,20 +52,42 @@ Fielding, R.~T., Taylor, R.~N., Erenkrantz, J.~R., Gorlick, M.~M., Whitehead,
   the ACM SIGSOFT Symposium on the Foundations of Software Engineering} .
 \newline\harvardurl{https://static.googleusercontent.com/media/research.google.com/no//pubs/archive/46310.pdf}
 
+\harvarditem{Frenvik}{2017}{Frenvik2017a}
+Frenvik, A.  \harvardyearleft 2017\harvardyearright , `{Det {\aa}pne
+  geodata-{\o}kosystemet}', {\em Kart og plan} {\bf 77}(5003),~108--120.
+\newline\harvardurl{http://docs.atlefren.net/ogde.pdf}
+
 \harvarditem[Giuliani et~al.]{Giuliani, Dubois \harvardand\
   Lacroix}{2013}{giuliani2013}
 Giuliani, G., Dubois, A. \harvardand\ Lacroix, P.  \harvardyearleft
   2013\harvardyearright , `{Testing OGC Web Feature and Coverage Service
   performance: Towards efficient delivery of geospatial data}', {\em Journal of
   Spatial Information Science} {\bf 2013}(7),~1--23.
+\newline\harvardurl{http://www.grid.unep.ch/products/3{\_}Reports/Testing{\_}OGC{\_}WFS{\_}WCS{\_}performance.pdf}
 
-\harvarditem{Kartverket}{2012}{Kartverket2012a}
-Kartverket  \harvardyearleft 2012\harvardyearright , `{Geosynkronisering}'.
+\harvarditem{Hokstad}{2016}{Hokstad2016}
+Hokstad, I.  \harvardyearleft 2016\harvardyearright , `{Kartlegger stikkrenner
+  for {\aa}forbygge flom}', {\em Posisjon Magasin for kart, oppm{\aa}ling og
+  geografisk informasjon} (1),~8.
+\newline\harvardurl{https://wpstatic.idium.no/www.geoforum.no/2014/09/Posisjon{\_}1{\_}2016-web.pdf}
+
+\harvarditem{INSPIRE}{2017}{INSPIRE}
+INSPIRE  \harvardyearleft 2017\harvardyearright , `{About INSPIRE}'.
+\newline\harvardurl{https://inspire.ec.europa.eu/about-inspire/563}
+
+\harvarditem{Kartverket}{2012{\em a}}{Kartverket2012a}
+Kartverket  \harvardyearleft 2012{\em a}\harvardyearright ,
+  `{Geosynkronisering}'.
 \newline\harvardurl{http://www.geosynkronisering.no/files/umlmodell/0.3/}
+
+\harvarditem{Kartverket}{2012{\em b}}{Kartverket2012}
+Kartverket  \harvardyearleft 2012{\em b}\harvardyearright , {SOSI standard
+  -versjon 4.5 2 Del 1: Realisering i SOSI-format og GML}.
+\newline\harvardurl{https://www.kartverket.no/globalassets/standard/sosi-standarden-del-1-og-2/sosi-standarden/del1{\_}2{\_}realiseringsosigml{\_}45{\_}20120608.pdf}
 
 \harvarditem{Kartverket}{2013}{Kartverket2013}
 Kartverket  \harvardyearleft 2013\harvardyearright , {Standarder Geografisk
-  Informasjon -Geosynkronisering Versjon 1.0}.
+  Informasjon - Geosynkronisering Versjon 1.0}.
 \newline\harvardurl{https://www.kartverket.no/globalassets/standard/bransjestandarder-utover-sosi/geosynkronisering-standard-versjon-1.pdf}
 
 \harvarditem{Kartverket}{2015}{Kartverket2015}

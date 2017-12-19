@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.20)  19 DEC 2017 08:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.20)  19 DEC 2017 18:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1256,8 +1256,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box41
 )) (./thesis.aux
 (./front.aux) (./preface.aux) (./summary.aux) (./introduction.aux)
-(./systems.aux) (./techniques.aux) (./platform.aux) (./centraliseddb.aux)
-(./conclusion.aux) (./acronyms.aux))
+(./systems.aux) (./techniques.aux) (./centraliseddb.aux) (./conclusion.aux)
+(./acronyms.aux) (./oppgavetekst.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -1401,18 +1401,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<img/NTNU.pdf, id=98, pagebox=cropbox, 241.90375pt x 53.19875pt>
+<img/NTNU.pdf, id=102, pagebox=cropbox, 241.90375pt x 53.19875pt>
 File: img/NTNU.pdf Graphic file (type pdf)
 <use img/NTNU.pdf>
 Package pdftex.def Info: img/NTNU.pdf  used on input line 17. on input line 17.
 
 Package pdftex.def Info: Requested size: 241.90315pt x 53.19861pt on input line
  17.
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--19
-
- []
-
 ) [1
 
 
@@ -1424,12 +1419,12 @@ TNU.pdf>]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--14
+Underfull \hbox (badness 10000) in paragraph at lines 10--13
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--14
+Underfull \hbox (badness 10000) in paragraph at lines 10--13
 
  []
 
@@ -1491,6 +1486,12 @@ LABELS NOT IMPORTED.
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 3.
+
+Overfull \hbox (0.21623pt too wide) in paragraph at lines 21--24
+\T1/futs/m/n/12 for up-dat-ing and syn-chro-nis-ing the main reg-is-ters, as we
+ll as hav-ing a brief dis-cus-sion on generic
+ []
+
 [2
 
 
@@ -1512,13 +1513,7 @@ LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <14.4> not available
 
 
 ]
-Overfull \hbox (0.49217pt too wide) in paragraph at lines 16--17
-\T1/futs/m/n/12 The ob-jec-tive of the cadas-tre, in Nor-we-gian called \T1/fut
-s/m/it/12 Ma-trikke-len\T1/futs/m/n/12 , is to serve as a reg-istry of cadastal
-
- []
-
-<img/consept.png, id=205, 515.9275pt x 218.8175pt>
+<img/consept.png, id=209, 515.9275pt x 218.8175pt>
 File: img/consept.png Graphic file (type png)
 <use img/consept.png>
 Package pdftex.def Info: img/consept.png  used on input line 31. on input line 
@@ -1527,7 +1522,7 @@ Package pdftex.def Info: Requested size: 412.74255pt x 175.05423pt on input lin
 e 31.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <8> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 32.
-[5]) [6 <./img/consept.png>]
+ [5]) [6 <./img/consept.png>]
 \openout2 = `techniques.aux'.
 
  (./techniques.tex
@@ -1544,14 +1539,12 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.25598pt on input line 12.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 12.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 13.
 [7
 
 
 
 ]
-<img/ngiss.png, id=237, 664.4825pt x 312.16624pt>
+<img/ngiss.png, id=242, 664.4825pt x 312.16624pt>
 File: img/ngiss.png Graphic file (type png)
 <use img/ngiss.png>
 Package pdftex.def Info: img/ngiss.png  used on input line 18. on input line 18
@@ -1560,7 +1553,7 @@ Package pdftex.def Info: Requested size: 332.24043pt x 156.08273pt on input lin
 e 18.
 LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <12> not available
 (Font)              Font shape `T1/futs/b/it' tried instead on input line 44.
-<img/geosync.png, id=247, 417.56pt x 79.29625pt>
+<img/geosync.png, id=252, 417.56pt x 79.29625pt>
 File: img/geosync.png Graphic file (type png)
 <use img/geosync.png>
 Package pdftex.def Info: img/geosync.png  used on input line 50. on input line 
@@ -1573,78 +1566,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--53
  []
 
 [8 <./img/ngiss.png>]
-<img/uml.png, id=268, 843.15pt x 723.70375pt>
+<img/uml.png, id=272, 843.15pt x 723.70375pt>
 File: img/uml.png Graphic file (type png)
 <use img/uml.png>
 Package pdftex.def Info: img/uml.png  used on input line 64. on input line 64.
 Package pdftex.def Info: Requested size: 295.10692pt x 253.30011pt on input lin
 e 64.
- [9 <./img/geosync.png> <./img/uml.png (PNG copy)>]
-<img/geosynkkk.png, id=288, 1064.97874pt x 84.315pt>
+ [9 <./img/geosync.png>]
+<img/geosynkkk.png, id=290, 1064.97874pt x 84.315pt>
 File: img/geosynkkk.png Graphic file (type png)
 <use img/geosynkkk.png>
 Package pdftex.def Info: img/geosynkkk.png  used on input line 73. on input lin
 e 73.
 Package pdftex.def Info: Requested size: 457.93193pt x 36.25473pt on input line
  73.
-
-[10 <./img/geosynkkk.png>]
-<img/matrikkelSYS.png, id=312, 683.55376pt x 492.84125pt>
+ [10 <./img/uml.png (PNG copy)> <./img/geosynkkk.png>]
+<img/matrikkelSYS.png, id=321, 683.55376pt x 492.84125pt>
 File: img/matrikkelSYS.png Graphic file (type png)
 <use img/matrikkelSYS.png>
 Package pdftex.def Info: img/matrikkelSYS.png  used on input line 103. on input
  line 103.
 Package pdftex.def Info: Requested size: 341.77605pt x 246.42001pt on input lin
 e 103.
- [11 <./img/matrikkelSYS.png>]
+ [11]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 114.
-
-Overfull \hbox (0.65953pt too wide) in paragraph at lines 134--136
-\T1/futs/m/n/12 The def-i-ni-tions of Rep-re-sen-ta-tional State Trans-fer (RES
-T) are many ([][]Field-ing et al.[][] [][]2017[][], [][]Richard-
+ [12 <./img/matrikkelSYS.png>]
+Overfull \hbox (10.41551pt too wide) in paragraph at lines 134--136
+\T1/futs/m/n/12 There are many def-i-ni-tions of Rep-re-sen-ta-tional State Tra
+ns-fer (REST) ([][]Field-ing et al.[][] [][]2017[][], [][]Richard-
  []
 
-[12]
-<img/REST.png, id=355, 663.47874pt x 201.75375pt>
+[13]
+<img/REST.png, id=375, 663.47874pt x 201.75375pt>
 File: img/REST.png Graphic file (type png)
 <use img/REST.png>
 Package pdftex.def Info: img/REST.png  used on input line 141. on input line 14
 1.
 Package pdftex.def Info: Requested size: 331.73856pt x 100.87662pt on input lin
 e 141.
-) [13 <./img/REST.png>]
-\openout2 = `platform.aux'.
 
- (./platform.tex
-Chapter 4.
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 17.
+(Font)              scaled to size 9.19998pt on input line 159.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 17.
+(Font)              scaled to size 6.99199pt on input line 159.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 17.
+(Font)              scaled to size 9.19998pt on input line 159.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 17.
-[14
-
-
-
-]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 37.
-
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 48.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/ts1futs.fd
-File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
-) [15])
-[16]
+(Font)              scaled to size 6.99199pt on input line 159.
+[14 <./img/REST.png>] [15]) [16]
 \openout2 = `centraliseddb.aux'.
 
  (./centraliseddb.tex
-Chapter 5.
+Chapter 4.
 [17
 
 
@@ -1653,7 +1631,7 @@ Chapter 5.
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
-Chapter 6.
+Chapter 5.
 ) [19
 
 
@@ -1667,98 +1645,160 @@ Appendix A.
 
 
 
-]) [21] (./thesis.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 16--19
+]) [21]
+\openout2 = `oppgavetekst.aux'.
+
+ (./oppgavetekst.tex
+Appendix B.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
+
+ []
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 13.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Underfull \hbox (badness 2359) in paragraph at lines 13--13
+[][][] \T1/futs/m/n/8 Kartver-ket \T1/futs/m/it/8 In-n-føring av Sen-tral FKB I
+ kom-munene [][]$\T1/cmtt/m/n/8 http : / / www . kartverket . no / Prosjekter /
+ Sentral-[]felleskartdatabase /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 20.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/ts1futs.fd
+File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
+) [22
+
+
+
+]
+Overfull \hbox (20.41144pt too wide) in paragraph at lines 22--23
+\T1/futs/m/n/12 spe-sialis-erte API'er (?). Plat-tfor-muavhengige API'er (Web-S
+er-vice, REST) vs. Plat-tfor-mavhengige
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--30
+
+ []
+
+) [23] (./thesis.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 22--25
 \T1/futs/b/n/10 URL: \T1/futs/m/it/10 http://www.robert-drummond.com/2013/05/08
 /how-to-build-a-restful-web-api-on-a-raspberry-pi-in-
  []
 
+[24
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--64
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
+\T1/futs/b/n/10 URL: \T1/futs/m/it/10 https://www.kartverket.no/globalassets/st
+andard/sosi-standarden-del-1-og-2/sosi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--92
 \T1/futs/b/n/10 URL: \T1/futs/m/it/10 https://www.kartverket.no/globalassets/st
 andard/bransjestandarder-utover-sosi/geosynkronisering-
  []
 
-[22
 
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 94--97
 \T1/futs/b/n/10 URL: \T1/futs/m/it/10 https://kartverket.no/globalassets/kart/g
 eodatasamarbeid/sentral-forv-for-primardata/konseptskisse-
  []
 
 
-Overfull \hbox (107.77553pt too wide) in paragraph at lines 86--89
+Overfull \hbox (107.77553pt too wide) in paragraph at lines 114--117
 \T1/futs/b/n/10 URL: \T1/futs/m/it/10 https://www.kartverket.no/globalassets/ar
 kiv/kart/sentral-forvlosning-for-primardata/sentralfelleskartdatabase_systembes
 krivelse.pdf 
  []
 
 
-Overfull \hbox (69.37555pt too wide) in paragraph at lines 92--98
+Overfull \hbox (69.37555pt too wide) in paragraph at lines 120--126
 \T1/futs/b/n/10 URL: \T1/futs/m/it/10 https://www.maanmittauslaitos.fi/sites/ma
 anmittauslaitos.fi/files/attachments/2017/09/geoprocessing_2015_1_20_30079.pdf 
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--119
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 144--147
 \T1/futs/b/n/10 URL: \T1/futs/m/it/10 http://sehavnivaa.no/globalassets/kart/ge
 odatasamarbeid/sentral-forv-for-primardata/quadri-map-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--124
+Underfull \hbox (badness 10000) in paragraph at lines 149--152
 \T1/futs/b/n/10 URL: \T1/futs/m/it/10 https://www.kartverket.no/globalassets/ka
 rt/geodatasamarbeid/sentral-forv-for-primardata/quadri-map-
  []
 
-[23]
-Overfull \hbox (127.2057pt too wide) in paragraph at lines 148--151
+
+Overfull \hbox (127.2057pt too wide) in paragraph at lines 176--179
 \T1/futs/b/n/10 URL: \T1/futs/m/it/10 https://books.google.no/books?id=ZXDGAAAA
 QBAJ&printsec=frontcover&hl=no&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=fals
 e 
  []
 
 
-Overfull \hbox (78.9258pt too wide) in paragraph at lines 153--156
+Overfull \hbox (78.9258pt too wide) in paragraph at lines 181--184
 \T1/futs/b/n/10 URL: \T1/futs/m/it/10 https://www.geonorge.no/globalassets/geon
 orge2/plan/moter-i-plandataforum/20160519/geosynkronisering_status_trondheim-
  []
 
-) [24]
+[26]) [27]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
  (./thesis.aux (./front.aux) (./preface.aux) (./summary.aux)
-(./introduction.aux) (./systems.aux) (./techniques.aux) (./platform.aux)
-(./centraliseddb.aux) (./conclusion.aux) (./acronyms.aux))
+(./introduction.aux) (./systems.aux) (./techniques.aux) (./centraliseddb.aux)
+(./conclusion.aux) (./acronyms.aux) (./oppgavetekst.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F7E466F6E65D743BB1BDDAE8A1EB30DC;1731.
+(rerunfilecheck)             Checksum: D2BAF4FF056E71CB6A0975D4E2BEAF4A;1811.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
  ) 
 Here is how much of TeX's memory you used:
- 20227 strings out of 492990
- 363858 string characters out of 6132621
- 432831 words of memory out of 5000000
- 23180 multiletter control sequences out of 15000+600000
- 133839 words of font info for 122 fonts, out of 8000000 for 9000
+ 20196 strings out of 492990
+ 363153 string characters out of 6132621
+ 430919 words of memory out of 5000000
+ 23136 multiletter control sequences out of 15000+600000
+ 134152 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,16n,92p,1277b,718s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
-/type1/adobe/utopia/putri8a.pfb>
-Output written on thesis.pdf (28 pages, 313068 bytes).
+ 64i,16n,92p,1375b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/adobe/utopia/putri8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/cm-super/sftt0800.pfb>
+Output written on thesis.pdf (31 pages, 351378 bytes).
 PDF statistics:
- 512 PDF objects out of 1000 (max. 8388607)
- 440 compressed objects within 5 object streams
- 101 named destinations out of 1000 (max. 500000)
- 237 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 556 PDF objects out of 1000 (max. 8388607)
+ 479 compressed objects within 5 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 245 words of extra memory for PDF output out of 10000 (max. 10000000)
 

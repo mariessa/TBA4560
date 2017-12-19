@@ -1,6 +1,10 @@
 %This is the Summary
 %%=========================================
-\addcontentsline{toc}{section}{Summary and Conclusions}
-\section*{Summary and Conclusions evt Abstract}
-TODO
-%Here you give a summary of your your work and your results. This is like a management summary and should be written in a clear and easy language, without many difficult terms and without abbreviations. Everything you present here must be treated in more detail in the main report. You should not give any references to the report in the summary -- just explain what you have done and what you have found out. The Summary and Conclusions should be no more than two pages.
+\addcontentsline{toc}{section}{Abstract}
+\section*{Abstract}
+
+This paper presents a state-of-the-art description of the main geospatial data stores in Norway (the cadastre and the basic geospatial data), and techniques of updating and synchronising these. There is a new implementation for storing the basic map data; instead of only changing the municipalities' distributed copies of the geospatial data (and uploading these changes once or twice a year into the national database), the changes are now directly updated into a central data store. 
+%The cadastre register have had the same type of system for nearly 10 years, 4
+Different transaction techniques for both the cadastre system and the basic map system are presented, as well as generic web services such as OGC's (Open Geospatial Consortium)'s WFS (Web Feature Service). A litterature review shows that the exchange of data on standardised interfaces seems to strengthen the flexibility and adaptability of projects. 
+The are some disadvantages of updating the geospatial data centrally, such as latency in transactions, but solutions for preventing this are present. The benefits of storing centrally seems to be greater than the disadvantage, reassuring the users of the new managing system of the basic map data that it is sustainable and advantageous. 
+

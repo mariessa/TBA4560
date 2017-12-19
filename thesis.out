@@ -1,9 +1,9 @@
 \BOOKMARK [1][-]{figure.caption.1}{Preface}{}% 1
-\BOOKMARK [1][-]{section*.2}{Summary and Conclusions}{}% 2
+\BOOKMARK [1][-]{section*.2}{Abstract}{}% 2
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
 \BOOKMARK [0][-]{chapter.2}{The Main Geospatial Data Systems in Norway}{}% 4
 \BOOKMARK [1][-]{section.2.1}{Sentral Felles Kartdatabase - The Central Map Data Store}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.2}{Matrikkelen The Norwegian Cadastre}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.2}{Matrikkelen - The Norwegian Cadastre}{chapter.2}% 6
 \BOOKMARK [1][-]{section.2.3}{Data Flow of the Two Systems}{chapter.2}% 7
 \BOOKMARK [0][-]{chapter.3}{Techniques for Updating and Synchronising Geodata}{}% 8
 \BOOKMARK [1][-]{section.3.1}{Quadri Map Server \(QMS\) and Its Synchronising Services}{chapter.3}% 9
@@ -15,9 +15,10 @@
 \BOOKMARK [2][-]{subsection.3.3.1}{Standard Spesifications from the Open Geospatial Consortium\)}{section.3.3}% 15
 \BOOKMARK [2][-]{subsection.3.3.2}{Simple Object Access Protocol \(SOAP\)}{section.3.3}% 16
 \BOOKMARK [2][-]{subsection.3.3.3}{Representational State Transfer \(REST\)}{section.3.3}% 17
-\BOOKMARK [0][-]{chapter.4}{Platform Independent Services}{}% 18
-\BOOKMARK [1][-]{subsection.4.0.1}{Previous work - generic API's}{chapter.4}% 19
-\BOOKMARK [0][-]{chapter.5}{Directly Updating versus Local Updating}{}% 20
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 21
+\BOOKMARK [1][-]{section.3.4}{Platform Independent Services}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.4.1}{Previous Work - Generic and Proprietary APIs}{section.3.4}% 19
+\BOOKMARK [0][-]{chapter.4}{Discussion on Centralised versus Distributed Updates }{}% 20
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 21
 \BOOKMARK [0][-]{appendix.A}{Glossary}{}% 22
-\BOOKMARK [0][-]{appendix.A}{Bibliography}{}% 23
+\BOOKMARK [0][-]{appendix.B}{Oppgaveteksten}{}% 23
+\BOOKMARK [0][-]{appendix.B}{Bibliography}{}% 24
