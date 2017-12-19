@@ -8,16 +8,16 @@ A level-1 auxiliary file: summary.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: systems.aux
 A level-1 auxiliary file: techniques.aux
-A level-1 auxiliary file: otherCountries.aux
+A level-1 auxiliary file: platform.aux
 A level-1 auxiliary file: centraliseddb.aux
 A level-1 auxiliary file: conclusion.aux
 A level-1 auxiliary file: acronyms.aux
 Database file #1: bibtex/library.bib
-Repeated entry---line 181 of file bibtex/library.bib
+Repeated entry---line 218 of file bibtex/library.bib
  : @unpublished{Eggan2017
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 425 of file bibtex/library.bib
+Repeated entry---line 281 of file bibtex/library.bib
  : @unpublished{Kartverket2013
  :                            ,
 I'm skipping whatever remains of this entry
@@ -34,43 +34,43 @@ Warning--empty note in Saether2016
 Warning--empty note in Sandal2016
 You've used 32 entries,
             2909 wiz_defined-function locations,
-            861 strings with 11568 characters,
-and the built_in function-call counts, 88424 in all, are:
-= -- 14100
-> -- 1105
+            855 strings with 11777 characters,
+and the built_in function-call counts, 91445 in all, are:
+= -- 14631
+> -- 1151
 < -- 0
-+ -- 6454
-- -- 329
-* -- 7292
-:= -- 18658
++ -- 6740
+- -- 343
+* -- 7562
+:= -- 19226
 add.period$ -- 32
 call.type$ -- 32
 change.case$ -- 447
 chr.to.int$ -- 29
 cite$ -- 43
-duplicate$ -- 398
-empty$ -- 826
-format.name$ -- 416
-if$ -- 15622
+duplicate$ -- 392
+empty$ -- 808
+format.name$ -- 431
+if$ -- 16172
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 15
+missing$ -- 14
 newline$ -- 129
-num.names$ -- 323
-pop$ -- 152
+num.names$ -- 324
+pop$ -- 159
 preamble$ -- 1
 purify$ -- 480
 quote$ -- 0
-skip$ -- 346
+skip$ -- 345
 stack$ -- 0
-substring$ -- 19463
-swap$ -- 48
+substring$ -- 20228
+swap$ -- 45
 text.length$ -- 448
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 126
 warning$ -- 11
-while$ -- 689
+while$ -- 685
 width$ -- 0
-write$ -- 402
+write$ -- 403
 (There were 2 error messages)

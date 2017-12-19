@@ -1,28 +1,28 @@
 \chapter{Techniques for Updating and Synchronising Geodata} \label{chap:tech}
-When submission of new data and modifications on existing data is done for the cadastre and basic map data in Norway, one of the criteria is that all the databases with the same content are updated regardless of where the update is done. What is needed is a geosynchronization service. The synchronization of the FKB data is done with \textit{geosynchronisation}, and updating through the \textit{NGIS-API}, and the cadastre data through the \textit{MatrikkelAPIs}.  This chapter will present these three techniques for getting access to and synchronizing geospatial data.  
+When submission of new data and modifications on existing data is done for the cadastre and basic map data in Norway, one of the criteria is that all the databases with the same content are updated regardless of where the update is done. What is needed is a geosynchronization service. The synchronization of FKB data is done with \textit{geosynchronisation}, the updating is done through the \textit{NGIS-API}, while the cadastre data is done through the \textit{MatrikkelAPIs}.  This chapter deals with these three techniques,as well as web services, for getting access to and synchronizing geospatial data.  
 
 
 \section{Quadri Map Server (QMS) and Its Synchronising Services}\label{ngis}
-The \textit{Quadri Map Server} (QMS) is the server of the of the SFKB system. 
+The \textit{Quadri Map Server} (QMS) is the server of the SFKB system,
 %To synchronize, update or upload data onto the QMS server, either the \textit{NGIS-API} or \textit{geosynchronisation} is used \citep{Kartverket2017}. 
-QMS has a client-server architecture; the servers distribute the data and the clients are able to both fetch data and perform services on them \citep{NorkartAS2010}. 
+and has a client-server architecture. That is, the servers distribute the data while the clients are able to both fetch and perform services on them \citep{NorkartAS2010}. 
 %The NGIS-API is an application programming interface for storing spatial data, and GeoSynkronisering is a standard for synchronizing spatial data across different platforms and system solutions \citep{Kartverket2017, Kartverket2013}.
 The structure of the QMS system
 %with the NGIS-API
-is as \cite{Kartverket2017} illustrated it in Figure \ref{fig:qmsfig}: the \textit{archives} (data stores) are used for storing the FKB-data, the \textit{portals} defines the clients and authorizes users for different tasks, and a task is defined as access to an archive. The data stored in, and uploaded into, QMS is defined by the \textit{object catalogue}, and the service of translating logical, humanly meaningful, names of the distributing servers is the \textit{name server}. All the feature instances in the archives are given unique identifiers. The attributes of the identifiers are LocalId, VersionId and Namespace. Namaspace is identifying the data source of the instance, the VersionId identifies the version of the object and the LocalId, based on a Universally unique identifier (UUID), ensures that each feature instance is unique\footnote{The probability to get the same number is small because there are som many possibilities. E.g., the number of random version 4 UUIDs which need to be generated in order to have a 50\% probability of at least one collision, is 2.71 quintillion. This is computed as follows: $ n \approx \frac{1}{2} + \sqrt{\frac{1}{4}+2 \times \ln{2} \times  2^{122}} \approx 2.71 \times 10^{18} $ \citep{Eggan2017}}. 
+is depicted in Figure \ref{fig:qmsfig}. The \textit{archives} (data stores) are used for storing the FKB-data, the \textit{portals} define the clients and authorize users for different tasks, where a task is defined as access to an archive. The data stored in, and uploaded into, QMS is defined by the \textit{object catalogue}, and the service of translating logical, humanly meaningful, names of the distributing servers is the \textit{name server}. All the feature instances in the archives are given unique identifiers. The attributes of the identifiers are LocalId, VersionId and Namespace. Namespace is identifying the data source of the instance, the VersionId identifies the version of the object and the LocalId, based on a Universally unique identifier (UUID), ensures that each feature instance is unique\footnote{The probability to get the same number is small because there are som many possibilities. E.g., the number of random version 4 UUIDs which need to be generated in order to have a 50\% probability of at least one collision, is 2.71 quintillion. This is computed as follows: $ n \approx \frac{1}{2} + \sqrt{\frac{1}{4}+2 \times \ln{2} \times  2^{122}} \approx 2.71 \times 10^{18} $ \citep{Eggan2017}}. 
 The \textit{NGIS-API} is the application programming interface for storing spatial data into QMS. \todo{skal jeg flytte denne setningen opp til over identifikatorene?}
 .
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.5]{img/ngiss.png}
-	\caption{The structure of the Quadri Map Server (QMS) system. For updating the data in QMS the NGIS-API is used.  The main components of the system are portals, object catalogue and archives. It is possible to use geosynchronisation (chapter \ref{geosync}) to manage the data in QMS, in addition to the NGIS-API. Figure adopted from \citep{Kartverket2017b} }
+	\caption{The structure of the Quadri Map Server (QMS) system. For updating the data in QMS the NGIS-API is used.  The main components of the system are portals, object catalogue and archives. It is possible to use geosynchronisation (chapter \ref{geosync}) to manage the data in QMS, in addition to the NGIS-API. Figure adapted from \citep{Kartverket2017b} }
 	\label{fig:qmsfig}
 \end{figure}
 
 \subsection{NGIS-API}
 
-When editing an existing object in QMS, e.g. a building or the land use of an area, the object gets locked in the archive, and the user edits the object locally. When the updating is done the user has to send the object back, together with objects that have been edided, added or deleted, to it's archive. When the objects are locked in the archives, other users can not edit the same object, but they might look at it. This process is called long transactions \citep{Kartverket2017b}.
+When editing an existing object, say a building or the land use of an area, in QMS, the object gets locked in the archive, and the user edits the object locally. When the updating is done, the user has to send the object, along with objects that have been edited, added or deleted, back to its archive. When the objects are locked in the archives, other users cannot edit the same object, but they might look at it. This process is called \textit{long transactions} \citep{Kartverket2017b}.
 
 
 
@@ -43,7 +43,7 @@ When editing an existing object in QMS, e.g. a building or the land use of an ar
 
 \subsection{\textit{GeoSynkronisering} - the Geosynchronisation Standard}\label{geosync}
 
-Geosynchronising (\textit{GeoSynkronisering}) is a Norwegian standard for synchronising geographical information across computer systems, and is a provider-subscriber system as illustrated in figure \ref{fig:geosync} \citep{Kartverket2013}. The provider updates the database with new data, and subscribers are allowed to update their databases with the changes done by the provider. The SFKB works as a provider: if data is changed or added in QMS the features will automaticly be geosynchronised to all subscribers. Subscribers in the SFKB-system are e.g. the municipalities and GeoNorge. GeoNorge is the web page where public agencies and institutions as well as private actors can get map data and other geospatial information for Norway.  
+Geosynchronising (\textit{GeoSynkronisering}) is a Norwegian standard for synchronising geographical information across computer systems, and is a provider-subscriber system as illustrated in figure \ref{fig:geosync}. The \textit{provider} updates the database with new data, while the \textit{subscribers} are allowed to update their databases with the changes done by the provider. The SFKB works as a provider: if data is changed or added in QMS, the features will automaticly be geosynchronised to all subscribers. Common subscribers in the SFKB-system are the municipalities and GeoNorge. GeoNorge is the web page where public agencies and institutions, as well as private actors, can get map data and other geospatial information for Norway.  
 \\
 \begin{figure}[H]
 	\centering
@@ -53,25 +53,25 @@ Geosynchronising (\textit{GeoSynkronisering}) is a Norwegian standard for synchr
 \end{figure}
 
 
-The project of making a standard interface for geosynchronisation services in Norway was carried out in 2012, and was a collaboration between Kartverket, the Norwegian Institute of Bioeconomy Research (NIBIO) and system providers in Norway. Geosynkronisering is a open and freely available project on GitHub, the This Norwegian standard is based on the concepts and methods from international standards, i.e. ISO 19100 Geographic Information/Geomatics and Open Geospatial Consortium (OGC) \citep{Eggan2017,Kartverket2013}.
+The project of making a standard interface for geosynchronisation services in Norway was carried out in 2012, and was a collaboration between Kartverket, the Norwegian Institute of Bioeconomy Research (NIBIO) and system providers in Norway. Geosynkronisering is a open and freely available project on GitHub, and this Norwegian standard is based on the concepts and methods from international standards, i.e. ISO 19100 Geographic Information/Geomatics and Open Geospatial Consortium (OGC) \citep{Eggan2017,Kartverket2013}.
 
 The geosynchornisation standard is model driven, using models as key artefacts in the development.
 %describing the data of an application or domain
-UML is used on the conceptual level to describe the data, and on the the data format with GML, using XSD as application schema showing the meta data. An example of a UML 
+UML is used on the conceptual level to describe the data, and on the the data format with GML, using XSD as an application schema showing the meta data. An example of a UML is given below.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.4]{img/uml.png}
-	\caption{Figure from \cite{Kartverket2012a} showing a UML model of the services of the geosynchronisation.}
+	\includegraphics[scale=0.35]{img/uml.png}
+	\caption{Figure from \cite{Kartverket2012a} showing an UML model of the services of the geosynchronisation.}
 	\label{fig:uml}
 \end{figure}
 
-The data transfer with geosynchronising (figure \ref{fig:geosyncprocess}) is a set of transactions of changed features on the GML-format and their respective changelogs are specified by the WFS-T.  GML (Geography Markup Language) is a open interchange format for geographic transactions and a modelling language for geospatial systems \citep{OGC2017}. WFS-T (Transactional Web Feature Service) allows creation, deletion, and updating of geospatial features on the web \citep{OGCNetwork} and will be further described in chapter \ref{wfs}. 
+The data transfer with geosynchronising (figure \ref{fig:geosyncprocess}) is a set of transactions of changed features on the GML-format and their respective changelogs are specified by the WFS-T.  GML (Geography Markup Language) is an open interchange format for geographic transactions and a modelling language for geospatial systems \citep{OGC2017}. WFS-T (Transactional Web Feature Service) allows creation, deletion, and updating of geospatial features on the web \citep{OGCNetwork} and will be further described in chapter \ref{wfs}. 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.43]{img/geosynkkk.png}
-	\caption{A detailed description of the Norwegian geosynchronisation process, adopted from \cite{Eggan2017}. The data stored in the database TODO . Deegree is a implementation of the Web Feature Service}
+	\caption{A detailed description of the Norwegian geosynchronisation process, adapted from \cite{Eggan2017}. The data stored in the database TODO . Deegree is an implementation of the Web Feature Service}
 	\label{fig:geosyncprocess}
 \end{figure}
 

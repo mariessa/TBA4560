@@ -27,6 +27,10 @@ Eggan, L. \harvardand\ Pedersen, J.  \harvardyearleft 2017\harvardyearright ,
   {WFS for transaksjoner WFS-T}.
 \newline\harvardurl{https://www.geonorge.no/globalassets/geonorge2/teknologiforum/2017/eggan{\_}wfs-t{\_}nois{\_}nov2017{\_}tf.pdf}
 
+\harvarditem{Falkanger}{2017}{Falkanger2017}
+Falkanger, T.  \harvardyearleft 2017\harvardyearright , `{Matrikkel}'.
+\newline\harvardurl{https://snl.no/matrikkel}
+
 \harvarditem{Fielding \harvardand\ Taylor}{1995}{Fieldinga}
 Fielding, R.~T. \harvardand\ Taylor, R.~N.  \harvardyearleft
   1995\harvardyearright , `{Principled Design of the Modern Web Architecture}'.
@@ -42,11 +46,6 @@ Fielding, R.~T., Taylor, R.~N., Erenkrantz, J.~R., Gorlick, M.~M., Whitehead,
   the ACM SIGSOFT Symposium on the Foundations of Software Engineering} .
 \newline\harvardurl{https://static.googleusercontent.com/media/research.google.com/no//pubs/archive/46310.pdf}
 
-\harvarditem{Frenvik}{2017}{Frenvik2017}
-Frenvik, A.  \harvardyearleft 2017\harvardyearright , `{Det {\aa}pne
-  geodata-{\o}kosystemet}', {\em Kart og Plan} {\bf 77}(5003),~108--120.
-\newline\harvardurl{http://docs.atlefren.net/ogde.pdf}
-
 \harvarditem[Giuliani et~al.]{Giuliani, Dubois \harvardand\
   Lacroix}{2013}{giuliani2013}
 Giuliani, G., Dubois, A. \harvardand\ Lacroix, P.  \harvardyearleft
@@ -54,13 +53,13 @@ Giuliani, G., Dubois, A. \harvardand\ Lacroix, P.  \harvardyearleft
   performance: Towards efficient delivery of geospatial data}', {\em Journal of
   Spatial Information Science} {\bf 2013}(7),~1--23.
 
-\harvarditem{INSPIRE}{2017}{INSPIRE}
-INSPIRE  \harvardyearleft 2017\harvardyearright , `{About INSPIRE}'.
-\newline\harvardurl{https://inspire.ec.europa.eu/about-inspire/563}
+\harvarditem{Kartverket}{2012}{Kartverket2012a}
+Kartverket  \harvardyearleft 2012\harvardyearright , `{Geosynkronisering}'.
+\newline\harvardurl{http://www.geosynkronisering.no/files/umlmodell/0.3/}
 
 \harvarditem{Kartverket}{2013}{Kartverket2013}
 Kartverket  \harvardyearleft 2013\harvardyearright , {Standarder Geografisk
-  Informasjon - Geosynkronisering Versjon 1.0}.
+  Informasjon -Geosynkronisering Versjon 1.0}.
 \newline\harvardurl{https://www.kartverket.no/globalassets/standard/bransjestandarder-utover-sosi/geosynkronisering-standard-versjon-1.pdf}
 
 \harvarditem{Kartverket}{2015}{Kartverket2015}
@@ -88,10 +87,14 @@ Kartverket  \harvardyearleft 2017{\em d}\harvardyearright , {Sentral Felles
   Kartdatabase - Systembeskrivelse}.
 \newline\harvardurl{https://www.kartverket.no/globalassets/arkiv/kart/sentral-forvlosning-for-primardata/sentralfelleskartdatabase{\_}systembeskrivelse.pdf}
 
-\harvarditem{Louridas}{2006}{Louridas2006}
-Louridas, P.  \harvardyearleft 2006\harvardyearright , `{SOAP and Web
-  Services}', {\em IEEE Software} {\bf 23}(6),~62--67.
-\newline\harvardurl{https://search.proquest.com/docview/215842743?rfr{\_}id=info{\%}3Axri{\%}2Fsid{\%}3Aprimo}
+\harvarditem[Lehto et~al.]{Lehto, Hietanen \harvardand\
+  Latvala}{2015}{Lehto2015}
+Lehto, L., Hietanen, E. \harvardand\ Latvala, P.  \harvardyearleft
+  2015\harvardyearright , `{Using Geosynchronization for Incremental Update of
+  INSPIRE Service Databases}', {\em GEOProcessing 2015 : The Seventh
+  International Conference on Advanced Geographic Information Systems,
+  Applications, and Services} .
+\newline\harvardurl{https://www.maanmittauslaitos.fi/sites/maanmittauslaitos.fi/files/attachments/2017/09/geoprocessing{\_}2015{\_}1{\_}20{\_}30079.pdf}
 
 \harvarditem{Matrikkelavdelingen}{2017}{Matrikkelavdelingen2017}
 Matrikkelavdelingen  \harvardyearleft 2017\harvardyearright , {Samla

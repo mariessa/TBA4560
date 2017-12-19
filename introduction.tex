@@ -1,24 +1,15 @@
-%This is chapter 1
-%%=========================================
+
+\externaldocument{acronyms.tex}
 \chapter{Introduction}
-For about ten years the Norwegian cadastre, \textit{Matrikkelen}, has had a centralised production system TODO cite Falkanger2017 - will this work for other geospatial systems in Norway as well? Traditionally the management system of the basic map data in Norway was a local production at the municipalities - where the updated map data was sent to the central data store once or twice a year - but today the new implementation follows a system where the municipalities directly update the map data to the data store managed by the Norwegian Mapping Authority, \textit{Kartverket}. 
-
-(TODO Litt mer funfacts her)
-
-%\begin{itemize}
-%	\item Storing the MAtrikkel data centrally has worked for several years ..
-%	\item cloud 
-%	\item spatial data infrastructure  	\cite[p.~2616]{Warf2010}
-%	\item According to several authors \cite{Peng2005} sharing data on file level is causing latency in update of the data. "A generalized standardization for all geospatial data is extremely difficult, and consensus is hard to achieve."
-%	\item coherency and consistency \cite{Breslow2004}
-%	\item motivation for this project
-%	\item Sentrale begreper blir forklart i teksten, og henvise til Glossary.
-%	\item The paper is organized as follows. 
-%	\item "As a consequence, centralisation always seems to be the preferred solution for decision makers. More recently, however, new context conditions have led to this generally received wisdom being questioned (Marlow et al., 2013)" \cite{Eggimann2015}
-%\end{itemize}
 
 
-The main objectives of this project are
+In this ever-changing world we are more dependant on up-to-date geospatial data, and without frequent updating of map data the service databases can fast become out-of-date. Traditionally the management system of the basic map data (FKB) in Norway was a local production at the municipalities, where the updated map data was sent to the central data store once or twice a year. When occasions for updating are rare this may cause great data quality problems \citep{Lehto2015, Peng2005}. 
+
+For about ten years the Norwegian cadastre, \textit{Matrikkelen}, has had a well functioning centralised production system \cite{Falkanger2017} - will this work for other geospatial systems in Norway as well? 
+%Traditionally the management system of the basic map data in Norway was a local production at the municipalities - where the updated map data was sent to the central data store once or twice a year - but 
+Today the new implementation of the the management system of the FKB map data in Norway follows a system where the municipalities directly update the map data to the data store managed by the Norwegian Mapping Authority, \textit{Kartverket}. Are there only advantages to this change, or are there some challenges by updating geospatial data directly in to a central data base?
+In this paper we will try to answer this question, and the main objectives are:
+
 \begin{enumerate}
 \item To give a state of the art description of the cadastre and basic map data systems in Norway.
 \item To give an overview of techniques for transferring geospatial information, and see whether they are platform independent or not.
@@ -27,16 +18,19 @@ The main objectives of this project are
 
 
 
-The organisation of the paper is as follows: Initially there are two theoretical chapters presenting the two main registers of geospatial information in Norway and the techniques for updating and synchronise to and from those. 
+The paper is structured as follows: Initially there are two theoretical chapters presenting the two main registers of geospatial information in Norway and the techniques for updating and synchronise to and from those. 
 %This is followed by a brief presentation of the managing systems in the neighbouring countries Sweden and Denmark. 
-The following chapters discuss the benefits and disadvantages of updating data into a central data store, and includes as well a brief discussion on generic versus platform dependent API's. The paper ends with a conclusion whether there are some disadvantages to centralising the updating and management of the basic map data.
+The following chapters discuss the benefits and disadvantages of updating data into a central data store, and includes as well a brief discussion on generic versus platform dependent API's. We close the paper with a conclusion on whether there are some disadvantages to centralising the updating and management of the basic map data.
 
-For an explanation of the central terms of this text, the reader is encouraged to look at the glossary in the Appendix.
+For an explanation of the central terms of this text, the reader may consult with the Appendix \ref{glossary}.
 
 %All objectives shall be stated such that we, after having read the thesis, can see whether or not you have met the objective. ``To become familiar with \ldots'' is therefore not a suitable objective.
 %The rest of the report is structured as follows. Chapter 2 gives an introduction to \ldots
 %and will be further described in chapter \ref{ngis} kan brukes til senere
 %As stated in Chapter \ref{SFKB}
+
+
+%	\item "As a consequence, centralisation always seems to be the preferred solution for decision makers. More recently, however, new context conditions have led to this generally received wisdom being questioned (Marlow et al., 2013)" \cite{Eggimann2015}
 
 %todo{sjekke over referanser}
 %todo{Er det sections og subsections som bør slåes sammen, ikke stå for seg selv? og motsatt}
